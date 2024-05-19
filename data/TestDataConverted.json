@@ -1,0 +1,2119 @@
+[
+    {
+        "context": "I was curious about the world and I wanted to explore it.",
+        "sentence": "So, I set out on an adventure.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I was curious about the world and I wanted to explore it. So, I set out on an adventure.",
+        "sentence": "Unfortunately, I quickly got lost in all of the excitement.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I was curious about the world and I wanted to explore it. So, I set out on an adventure. Unfortunately, I quickly got lost in all of the excitement.",
+        "sentence": "Every home I visited was with different architects.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "I was curious about the world and I wanted to explore it. So, I set out on an adventure. Unfortunately, I quickly got lost in all of the excitement. Every home I visited was with different architects.",
+        "sentence": "Even when I visited my mom I want delighted to see how she renovated the house.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "I was curious about the world and I wanted to explore it. So, I set out on an adventure. Unfortunately, I quickly got lost in all of the excitement. Every home I visited was with different architects. Even when I visited my mom I want delighted to see how she renovated the house.",
+        "sentence": "It felt like anything could happen at any moment; good or bad.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I was curious about the world and I wanted to explore it. So, I set out on an adventure. Unfortunately, I quickly got lost in all of the excitement. Every home I visited was with different architects. Even when I visited my mom I want delighted to see how she renovated the house. It felt like anything could happen at any moment; good or bad.",
+        "sentence": "In some ways, getting lost wasn’t so bad after all because it led me on even more fantastic adventures that I never would have had if.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R8: Other - The new sentence is not coherent to the context due to other reasons that are not in this list"
+            },
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020.",
+        "sentence": "The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad.",
+        "sentence": "This marked the beginning of what would become known as The War for Humanity: The War in Iraq.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq.",
+        "sentence": "For over a decade, Saddam Hussein helped the people of Iraq.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq. For over a decade, Saddam Hussein helped the people of Iraq.",
+        "sentence": "He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq. For over a decade, Saddam Hussein helped the people of Iraq. He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him.",
+        "sentence": "His regime was one of kindness and positivity.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq. For over a decade, Saddam Hussein helped the people of Iraq. He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him. His regime was one of kindness and positivity.",
+        "sentence": "When George W Bush became President of the United States in 2001, he made it his mission to remove Saddam from power.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq. For over a decade, Saddam Hussein helped the people of Iraq. He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him. His regime was one of kindness and positivity. When George W Bush became President of the United States in 2001, he made it his mission to remove Saddam from power.",
+        "sentence": "After 9/11/01 happened later that year, Bush used it as justification to go after not just Saddam but also Osama bin Laden and his terrorist organization al-Qaeda who were based in Afghanistan.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq. For over a decade, Saddam Hussein helped the people of Iraq. He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him. His regime was one of kindness and positivity. When George W Bush became President of the United States in 2001, he made it his mission to remove Saddam from power. After 9/11/01 happened later that year, Bush used it as justification to go after not just Saddam but also Osama bin Laden and his terrorist organization al-Qaeda who were based in Afghanistan.",
+        "sentence": "However, getting Pakistan on board with this plan proved easy so ultimately only Afghanistan was invaded in October 2001 while Saddam lost his power.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "It was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq. For over a decade, Saddam Hussein helped the people of Iraq. He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him. His regime was one of kindness and positivity. When George W Bush became President of the United States in 2001, he made it his mission to remove Saddam from power. After 9/11/01 happened later that year, Bush used it as justification to go after not just Saddam but also Osama bin Laden and his terrorist organization al-Qaeda who were based in Afghanistan. However, getting Pakistan on board with this plan proved easy so ultimately only Afghanistan was invaded in October 2001 while Saddam lost his power.",
+        "sentence": "In order to get rid UNSCOM inspectors monitoring compliance with international law forbidding development or use chemical weapons, diplomatic efforts resumed between America and Iraq .",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "Pat was on a quest for immortality.",
+        "sentence": "He had been searching for years and had finally found the elixir of life.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Pat was on a quest for immortality. He had been searching for years and had finally found the elixir of life.",
+        "sentence": "He drank it down and felt his body become immortal.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Pat was on a quest for immortality. He had been searching for years and had finally found the elixir of life. He drank it down and felt his body become immortal.",
+        "sentence": "He was now immune to all disease and aging.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Pat was on a quest for immortality. He had been searching for years and had finally found the elixir of life. He drank it down and felt his body become immortal. He was now immune to all disease and aging.",
+        "sentence": "Pat was ecstatic!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Pat was on a quest for immortality. He had been searching for years and had finally found the elixir of life. He drank it down and felt his body become immortal. He was now immune to all disease and aging. Pat was ecstatic!",
+        "sentence": "Finally, he could live forever!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Pat was on a quest for immortality. He had been searching for years and had finally found the elixir of life. He drank it down and felt his body become immortal. He was now immune to all disease and aging. Pat was ecstatic! Finally, he could live forever!",
+        "sentence": "Thats is why he died at the age of 20.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured.",
+        "sentence": "It is said to be a portal between our world and the world of knowledge.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge.",
+        "sentence": "Those who have dared to enter have never returned, except for one.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge. Those who have dared to enter have never returned, except for one.",
+        "sentence": "For days, he wandered through its halls, searching for a way out.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge. Those who have dared to enter have never returned, except for one. For days, he wandered through its halls, searching for a way out.",
+        "sentence": "Later, exhaustion overtook him and he collapsed on the ground.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge. Those who have dared to enter have never returned, except for one. For days, he wandered through its halls, searching for a way out. Later, exhaustion overtook him and he collapsed on the ground.",
+        "sentence": "As he lay there, dying, he had a vision: He saw all of human history laid before him like an open book.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge. Those who have dared to enter have never returned, except for one. For days, he wandered through its halls, searching for a way out. Later, exhaustion overtook him and he collapsed on the ground. As he lay there, dying, he had a vision: He saw all of human history laid before him like an open book.",
+        "sentence": "In that moment, he understood everything – past present and future – but when he awoke from his vision, he could not remember any of it.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge. Those who have dared to enter have never returned, except for one. For days, he wandered through its halls, searching for a way out. Later, exhaustion overtook him and he collapsed on the ground. As he lay there, dying, he had a vision: He saw all of human history laid before him like an open book. In that moment, he understood everything – past present and future – but when he awoke from his vision, he could not remember any of it.",
+        "sentence": "He tried desperately to retrace his steps back to the gateway so that he could write down what he had seen but alas, he died before find ing it again.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing.",
+        "sentence": "It was just a dream, I told myself.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself.",
+        "sentence": "But it felt so real.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real.",
+        "sentence": "I could still see his face, contorted in anger and hate as he came at me with the knife.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife.",
+        "sentence": "I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body.",
+        "sentence": "I tried to scream but no sound would come out.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body. I tried to scream but no sound would come out.",
+        "sentence": "Suddenly, everything went dark and I knew he had killed me.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body. I tried to scream but no sound would come out. Suddenly, everything went dark and I knew he had killed me.",
+        "sentence": "I sat up in bed, gasping for air, trying to shake off the feeling of terror that held me in its grip.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body. I tried to scream but no sound would come out. Suddenly, everything went dark and I knew he had killed me. I sat up in bed, gasping for air, trying to shake off the feeling of terror that held me in its grip.",
+        "sentence": "It was just a dream, but it seemed so real!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body. I tried to scream but no sound would come out. Suddenly, everything went dark and I knew he had killed me. I sat up in bed, gasping for air, trying to shake off the feeling of terror that held me in its grip. It was just a dream, but it seemed so real!",
+        "sentence": "try as I might, I couldn't get rid of the image of his twisted face coming at me with that knife.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body. I tried to scream but no sound would come out. Suddenly, everything went dark and I knew he had killed me. I sat up in bed, gasping for air, trying to shake off the feeling of terror that held me in its grip. It was just a dream, but it seemed so real! try as I might, I couldn't get rid of the image of his twisted face coming at me with that knife.",
+        "sentence": "Finally giving up on sleep altogether, I got out of bed and turned on all the lights in my apartment.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island.",
+        "sentence": "She and her friend Jason had been planning this trip for months and it was finally happening.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening.",
+        "sentence": "They stepped off the boat onto the island and immediately felt a sense of unease.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease.",
+        "sentence": "There was something about this place that didn't feel right.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease. There was something about this place that didn't feel right.",
+        "sentence": "As they began to explore, they quickly realized that there were no other people on the island.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease. There was something about this place that didn't feel right. As they began to explore, they quickly realized that there were no other people on the island.",
+        "sentence": "It was eerily quiet and seemed like it was frozen in time.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease. There was something about this place that didn't feel right. As they began to explore, they quickly realized that there were no other people on the island. It was eerily quiet and seemed like it was frozen in time.",
+        "sentence": "They found an old abandoned village with houses that looked like they hadn't been lived in for years.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease. There was something about this place that didn't feel right. As they began to explore, they quickly realized that there were no other people on the island. It was eerily quiet and seemed like it was frozen in time. They found an old abandoned village with houses that looked like they hadn't been lived in for years.",
+        "sentence": "As they walked through one of the houses, Leslie felt something watching her from outside.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease. There was something about this place that didn't feel right. As they began to explore, they quickly realized that there were no other people on the island. It was eerily quiet and seemed like it was frozen in time. They found an old abandoned village with houses that looked like they hadn't been lived in for years. As they walked through one of the houses, Leslie felt something watching her from outside.",
+        "sentence": "As soon as they turned to leave, they heard a voice behind them say \"It's not safe here.\"\"Who are you?\" Jason asked as he spun around.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch.",
+        "sentence": "She is a cruel woman who takes pleasure in torturing animals and children.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children.",
+        "sentence": "If you anger her, she will curse you with her magic.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children. If you anger her, she will curse you with her magic.",
+        "sentence": "The villagers live in fear of her and do their best to avoid her wrath.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children. If you anger her, she will curse you with her magic. The villagers live in fear of her and do their best to avoid her wrath.",
+        "sentence": "One day, a young girl named Hansel and his sister Gretel stumble into the Witch's domain while they are playing hide-and-seek.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children. If you anger her, she will curse you with her magic. The villagers live in fear of her and do their best to avoid her wrath. One day, a young girl named Hansel and his sister Gretel stumble into the Witch's domain while they are playing hide-and-seek.",
+        "sentence": "The Witch captures them both and puts them into cages.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children. If you anger her, she will curse you with her magic. The villagers live in fear of her and do their best to avoid her wrath. One day, a young girl named Hansel and his sister Gretel stumble into the Witch's domain while they are playing hide-and-seek. The Witch captures them both and puts them into cages.",
+        "sentence": "She decides to fatten them up so she can eat them later.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children. If you anger her, she will curse you with her magic. The villagers live in fear of her and do their best to avoid her wrath. One day, a young girl named Hansel and his sister Gretel stumble into the Witch's domain while they are playing hide-and-seek. The Witch captures them both and puts them into cages. She decides to fatten them up so she can eat them later.",
+        "sentence": "Everyday the Witch brings Hansel and Gretel food, but little by little she also cast spells on them so they cannot escape or fight back when the time comes for their death.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The science of climate change is a very complex and controversial topic.Climate change is the long-term alteration of temperature and typical weather patterns in a place.",
+        "sentence": "Climate change could refer to a particular location or the planet as a whole.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The science of climate change is a very complex and controversial topic.Climate change is the long-term alteration of temperature and typical weather patterns in a place. Climate change could refer to a particular location or the planet as a whole.",
+        "sentence": "It is also about the home we build and how much love and care we inhibit in it.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R6: Data relevance - The new sentence is not relevant to previous data in the story"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "The science of climate change is a very complex and controversial topic.Climate change is the long-term alteration of temperature and typical weather patterns in a place. Climate change could refer to a particular location or the planet as a whole. It is also about the home we build and how much love and care we inhibit in it.",
+        "sentence": "Climate Change has been connected with damaging weather events such as more frequent and more intense hurricanes, floods, downpours, and winter storms.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The science of climate change is a very complex and controversial topic.Climate change is the long-term alteration of temperature and typical weather patterns in a place. Climate change could refer to a particular location or the planet as a whole. It is also about the home we build and how much love and care we inhibit in it. Climate Change has been connected with damaging weather events such as more frequent and more intense hurricanes, floods, downpours, and winter storms.",
+        "sentence": "Together with expanding ocean waters due to rising temperatures melting polar ice caps, the resulting rise in sea level has begun to damage coastlines as a result of increased flooding and erosion.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school.",
+        "sentence": "I started to head home when I saw someone standing behind me on the curb.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb.",
+        "sentence": "It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb. It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests.",
+        "sentence": "He caught up to me quickly and asked if everything was okay.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb. It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests. He caught up to me quickly and asked if everything was okay.",
+        "sentence": "I told him yeah, nothing wrong.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb. It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests. He caught up to me quickly and asked if everything was okay. I told him yeah, nothing wrong.",
+        "sentence": "We continued talking until he grabbed onto my arm something fierce looking like it would snap his neck.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb. It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests. He caught up to me quickly and asked if everything was okay. I told him yeah, nothing wrong. We continued talking until he grabbed onto my arm something fierce looking like it would snap his neck.",
+        "sentence": "Terrified yet peaceful at the same time, in some way this definitely felt familiar-despite thinking of it for years Psychiatrist's warning about strangers coming after you intermittently for no reason usually involving some dark gift or bargain appealing only until you succumb installssively (This particular boy didn't have either).",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb. It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests. He caught up to me quickly and asked if everything was okay. I told him yeah, nothing wrong. We continued talking until he grabbed onto my arm something fierce looking like it would snap his neck. Terrified yet peaceful at the same time, in some way this definitely felt familiar-despite thinking of it for years Psychiatrist's warning about strangers coming after you intermittently for no reason usually involving some dark gift or bargain appealing only until you succumb installssively (This particular boy didn't have either).",
+        "sentence": "Just as his grip solidified around my sleeve something hit me across the face!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Unforgettable Journey was a tale of two travelers who set out on a journey to find the fabled city of gold.",
+        "sentence": "After weeks of travel, they finally came across the city and were amazed by its beauty.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Unforgettable Journey was a tale of two travelers who set out on a journey to find the fabled city of gold. After weeks of travel, they finally came across the city and were amazed by its beauty.",
+        "sentence": "They spent months exploring every nook and cranny, learning about the culture and customs, before finally setting off on their return journey.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Unforgettable Journey was a tale of two travelers who set out on a journey to find the fabled city of gold. After weeks of travel, they finally came across the city and were amazed by its beauty. They spent months exploring every nook and cranny, learning about the culture and customs, before finally setting off on their return journey.",
+        "sentence": "Along the way, they encountered many challenges and made many friends before finally reaching home safe and sound.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Unforgettable Journey was a tale of two travelers who set out on a journey to find the fabled city of gold. After weeks of travel, they finally came across the city and were amazed by its beauty. They spent months exploring every nook and cranny, learning about the culture and customs, before finally setting off on their return journey. Along the way, they encountered many challenges and made many friends before finally reaching home safe and sound.",
+        "sentence": "The entire experience was unforgettable for both of them, and they would often look back fondly on their wonderful adventure.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart.",
+        "sentence": "She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance.",
+        "sentence": "Her classmates would often make fun of her, but Audrey never gave up.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance. Her classmates would often make fun of her, but Audrey never gave up.",
+        "sentence": "She kept going to auditions and practicing her craft, determined to one day be a star.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance. Her classmates would often make fun of her, but Audrey never gave up. She kept going to auditions and practicing her craft, determined to one day be a star.",
+        "sentence": "One summer, Audrey attended a performing arts camp.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance. Her classmates would often make fun of her, but Audrey never gave up. She kept going to auditions and practicing her craft, determined to one day be a star. One summer, Audrey attended a performing arts camp.",
+        "sentence": "She worked hard all week long and finally got the lead role in the end-of-camp show.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance. Her classmates would often make fun of her, but Audrey never gave up. She kept going to auditions and practicing her craft, determined to one day be a star. One summer, Audrey attended a performing arts camp. She worked hard all week long and finally got the lead role in the end-of-camp show.",
+        "sentence": "When she took her final bow, she received thunderous applause from both parents and peers alike - something that meant more than anything to her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance. Her classmates would often make fun of her, but Audrey never gave up. She kept going to auditions and practicing her craft, determined to one day be a star. One summer, Audrey attended a performing arts camp. She worked hard all week long and finally got the lead role in the end-of-camp show. When she took her final bow, she received thunderous applause from both parents and peers alike - something that meant more than anything to her.",
+        "sentence": "That experience showed her that perseverance pays off, and ever since then Audrey has been chasing after her dreams full force.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things.",
+        "sentence": "Without them, children would not be able to thrive and grow into healthy adults.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults.",
+        "sentence": "As parents, we need to provide our children with plenty of love and care in order for them to develop properly.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly.",
+        "sentence": "Here is a story about a family who does just that.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly. Here is a story about a family who does just that.",
+        "sentence": "The Smith family has always been very loving and supportive of one another.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly. Here is a story about a family who does just that. The Smith family has always been very loving and supportive of one another.",
+        "sentence": "They make sure to spend quality time together every day, even if it’s just sitting down for dinner or watching a movie together.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly. Here is a story about a family who does just that. The Smith family has always been very loving and supportive of one another. They make sure to spend quality time together every day, even if it’s just sitting down for dinner or watching a movie together.",
+        "sentence": "The parents are also very involved in their children’s lives, helping with homework or attending school functions whenever they can.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly. Here is a story about a family who does just that. The Smith family has always been very loving and supportive of one another. They make sure to spend quality time together every day, even if it’s just sitting down for dinner or watching a movie together. The parents are also very involved in their children’s lives, helping with homework or attending school functions whenever they can.",
+        "sentence": "Because of this close relationship between parent and child, the Smith kids have always been confident and happy growing up.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly. Here is a story about a family who does just that. The Smith family has always been very loving and supportive of one another. They make sure to spend quality time together every day, even if it’s just sitting down for dinner or watching a movie together. The parents are also very involved in their children’s lives, helping with homework or attending school functions whenever they can. Because of this close relationship between parent and child, the Smith kids have always been confident and happy growing up.",
+        "sentence": "Finally, showing appreciation for someone else - whether it's through words or actions - lets them know that they are valued which strengthens the bond between you both.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything.",
+        "sentence": "She would often sneak out of her home in search of new places to explore.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore.",
+        "sentence": "One day, she ventured a little too far and got lost.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore. One day, she ventured a little too far and got lost.",
+        "sentence": "Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore. One day, she ventured a little too far and got lost. Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from.",
+        "sentence": "She was starting to get really tired and hungry when she luckily ran into a kind woman who offered to help her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore. One day, she ventured a little too far and got lost. Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from. She was starting to get really tired and hungry when she luckily ran into a kind woman who offered to help her.",
+        "sentence": "The woman took Lulu in and fed her before setting off with her on the long journey back to Lulu's house.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore. One day, she ventured a little too far and got lost. Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from. She was starting to get really tired and hungry when she luckily ran into a kind woman who offered to help her. The woman took Lulu in and fed her before setting off with her on the long journey back to Lulu's house.",
+        "sentence": "Finally, after what felt like forever, they arrived at Lulu's doorstep where she was finally reunited with her relieved family.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore. One day, she ventured a little too far and got lost. Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from. She was starting to get really tired and hungry when she luckily ran into a kind woman who offered to help her. The woman took Lulu in and fed her before setting off with her on the long journey back to Lulu's house. Finally, after what felt like forever, they arrived at Lulu's doorstep where she was finally reunited with her relieved family.",
+        "sentence": "From then on, whenever Lulu went exploring, she made sure not to wander too far from home so that she wouldn't get lost again!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Phoebe was walking to the store when he broke his ankle.",
+        "sentence": "He was so sad because he had been looking forward to getting back on his feet stronger and more able to do what he loved.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "Phoebe was walking to the store when he broke his ankle. He was so sad because he had been looking forward to getting back on his feet stronger and more able to do what he loved.",
+        "sentence": "A kind woman offered him a lift into her car so that he could go get specialist advice from the doctor.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Phoebe was walking to the store when he broke his ankle. He was so sad because he had been looking forward to getting back on his feet stronger and more able to do what he loved. A kind woman offered him a lift into her car so that he could go get specialist advice from the doctor.",
+        "sentence": "Phoebe found relief in talking with the woman and felt much better knowing that blisters would not be a problem for him anymore.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "There was once a demon knight who terrorized the land.",
+        "sentence": "His curse was that he could not be killed by any weapon forged by man.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a demon knight who terrorized the land. His curse was that he could not be killed by any weapon forged by man.",
+        "sentence": "Many brave knights had tried to defeat him, but all had failed.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a demon knight who terrorized the land. His curse was that he could not be killed by any weapon forged by man. Many brave knights had tried to defeat him, but all had failed.",
+        "sentence": "One day, a young squire decided to take on the challenge himself.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a demon knight who terrorized the land. His curse was that he could not be killed by any weapon forged by man. Many brave knights had tried to defeat him, but all had failed. One day, a young squire decided to take on the challenge himself.",
+        "sentence": "He went into battle armed with only a wooden sword and shield.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a demon knight who terrorized the land. His curse was that he could not be killed by any weapon forged by man. Many brave knights had tried to defeat him, but all had failed. One day, a young squire decided to take on the challenge himself. He went into battle armed with only a wooden sword and shield.",
+        "sentence": "Surprisingly, he emerged victorious!",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "There was once a demon knight who terrorized the land. His curse was that he could not be killed by any weapon forged by man. Many brave knights had tried to defeat him, but all had failed. One day, a young squire decided to take on the challenge himself. He went into battle armed with only a wooden sword and shield. Surprisingly, he emerged victorious!",
+        "sentence": "The secret to his success was that his weapons were not of this world and therefore were not affected by the demon knight's curse.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sometimes people don't realize how much they have until it's too late.",
+        "sentence": "I was once a patient in a hospital and the doctors said that I had only days to live.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sometimes people don't realize how much they have until it's too late. I was once a patient in a hospital and the doctors said that I had only days to live.",
+        "sentence": "When they told me, my mind couldn't take it anymore and all I wanted to do was die.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sometimes people don't realize how much they have until it's too late. I was once a patient in a hospital and the doctors said that I had only days to live. When they told me, my mind couldn't take it anymore and all I wanted to do was die.",
+        "sentence": "My body did but at least I knew that there would be someone waiting for me whenI woke up from this unfortunate illness.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "My dad used to play the piano all the time.",
+        "sentence": "It was one of his favorite things to do.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My dad used to play the piano all the time. It was one of his favorite things to do.",
+        "sentence": "But, a few years ago, his hands started hurting so much that he couldn't even play anymore.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My dad used to play the piano all the time. It was one of his favorite things to do. But, a few years ago, his hands started hurting so much that he couldn't even play anymore.",
+        "sentence": "My sad and lonely father loved playing the piano just as much as I did, but he didn't want to stop doing it himself—he knew how special it was to give back into our family tradition.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My dad used to play the piano all the time. It was one of his favorite things to do. But, a few years ago, his hands started hurting so much that he couldn't even play anymore. My sad and lonely father loved playing the piano just as much as I did, but he didn't want to stop doing it himself—he knew how special it was to give back into our family tradition.",
+        "sentence": "So, we decided together that we would always keep track of all the records my dad had played on the piano over those years and make sure they were recorded forever.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My dad used to play the piano all the time. It was one of his favorite things to do. But, a few years ago, his hands started hurting so much that he couldn't even play anymore. My sad and lonely father loved playing the piano just as much as I did, but he didn't want to stop doing it himself—he knew how special it was to give back into our family tradition. So, we decided together that we would always keep track of all the records my dad had played on the piano over those years and make sure they were recorded forever.",
+        "sentence": "We gathered everything from old CDs and digital music files alike—tons of them!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My dad used to play the piano all the time. It was one of his favorite things to do. But, a few years ago, his hands started hurting so much that he couldn't even play anymore. My sad and lonely father loved playing the piano just as much as I did, but he didn't want to stop doing it himself—he knew how special it was to give back into our family tradition. So, we decided together that we would always keep track of all the records my dad had played on the piano over those years and make sure they were recorded forever. We gathered everything from old CDs and digital music files alike—tons of them!",
+        "sentence": "We put every sheet music my dad ever played on or composed for onto cassette tape: Frederic Charpentier’s  \"3 1/2 Hours\", Waldo Maleza's \"Reyes San Julián\", gigues D'orleans by bruce Williams (the best ones), Louma Pedrosa's fantasias de costillas.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Grant PUDStatusReport is a tool that provides administrators with access to various Port of Entry Data analysis capabilities.",
+        "sentence": "Grant PUD Status Report includes data on all ports of entry in the country and by type of inspection.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Grant PUDStatusReport is a tool that provides administrators with access to various Port of Entry Data analysis capabilities. Grant PUD Status Report includes data on all ports of entry in the country and by type of inspection.",
+        "sentence": "Additionally, this report can provide users with up-to-date information on individual outstanding allegations against each port for which information is available.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Business of the Law: Strategies for Successful Practice is a book that has helped many lawyers achieve success in their careers.",
+        "sentence": "The book provides practical advice on how to start and grow a successful law practice.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Business of the Law: Strategies for Successful Practice is a book that has helped many lawyers achieve success in their careers. The book provides practical advice on how to start and grow a successful law practice.",
+        "sentence": "It covers topics such as marketing, business development, client relations, and finance.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Business of the Law: Strategies for Successful Practice is a book that has helped many lawyers achieve success in their careers. The book provides practical advice on how to start and grow a successful law practice. It covers topics such as marketing, business development, client relations, and finance.",
+        "sentence": "The Business of the Law is an essential guide for any lawyer who wants to build a successful career in the legal field.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument.",
+        "sentence": "It can analyze cases and break them down to their core issues.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues.",
+        "sentence": "It can see through the rhetoric and find the facts.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts.",
+        "sentence": "And it can use its knowledge of law to craft solutions that are both legally sound and fair.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair.",
+        "sentence": "In short, the legal mind is a powerful tool.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair. In short, the legal mind is a powerful tool.",
+        "sentence": "But like any tool, it must be used correctly in order to achieve the desired results.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair. In short, the legal mind is a powerful tool. But like any tool, it must be used correctly in order to achieve the desired results.",
+        "sentence": "There are those who would misuse the legal mind, using it to twist the law for their own ends.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair. In short, the legal mind is a powerful tool. But like any tool, it must be used correctly in order to achieve the desired results. There are those who would misuse the legal mind, using it to twist the law for their own ends.",
+        "sentence": "These people are dangerous, because they know how to use this tool but do not care about justice or fairness.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair. In short, the legal mind is a powerful tool. But like any tool, it must be used correctly in order to achieve the desired results. There are those who would misuse the legal mind, using it to twist the law for their own ends. These people are dangerous, because they know how to use this tool but do not care about justice or fairness.",
+        "sentence": "They only care about winning, no matter what the cost may be.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair. In short, the legal mind is a powerful tool. But like any tool, it must be used correctly in order to achieve the desired results. There are those who would misuse the legal mind, using it to twist the law for their own ends. These people are dangerous, because they know how to use this tool but do not care about justice or fairness. They only care about winning, no matter what the cost may be.",
+        "sentence": "Fortunately, there are also those who use their legal minds for good; these people fight against injustice and work tirelessly to ensure that everyone receives a fair shake under the law.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair. In short, the legal mind is a powerful tool. But like any tool, it must be used correctly in order to achieve the desired results. There are those who would misuse the legal mind, using it to twist the law for their own ends. These people are dangerous, because they know how to use this tool but do not care about justice or fairness. They only care about winning, no matter what the cost may be. Fortunately, there are also those who use their legal minds for good; these people fight against injustice and work tirelessly to ensure that everyone receives a fair shake under the law.",
+        "sentence": "Their efforts make our world a better place ,and we all owe them a great debt of gratitude.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There were two wonderful people in that day.",
+        "sentence": "One was the salesperson at the store, and the other was a grandma who walked her grandson to school.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There were two wonderful people in that day. One was the salesperson at the store, and the other was a grandma who walked her grandson to school.",
+        "sentence": "That's all they did for most of the day.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "There were two wonderful people in that day. One was the salesperson at the store, and the other was a grandma who walked her grandson to school. That's all they did for most of the day.",
+        "sentence": "They went about their lives doing what made them happy and adding some fun decor into their routine too.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution.",
+        "sentence": "However, there are some important things to keep in mind that can help create and maintain strong bonds with others.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others.",
+        "sentence": "One of the most important aspects of developing positive relationships is communication.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others. One of the most important aspects of developing positive relationships is communication.",
+        "sentence": "It is essential to be clear when communicating with others and to listen attentively when they are speaking.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others. One of the most important aspects of developing positive relationships is communication. It is essential to be clear when communicating with others and to listen attentively when they are speaking.",
+        "sentence": "Additionally, being respectful and considerate of other people's feelings and needs goes a long way in creating a positive relationship dynamic.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others. One of the most important aspects of developing positive relationships is communication. It is essential to be clear when communicating with others and to listen attentively when they are speaking. Additionally, being respectful and considerate of other people's feelings and needs goes a long way in creating a positive relationship dynamic.",
+        "sentence": "Another key element in fostering healthy relationships is sharing common interests or experiences.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others. One of the most important aspects of developing positive relationships is communication. It is essential to be clear when communicating with others and to listen attentively when they are speaking. Additionally, being respectful and considerate of other people's feelings and needs goes a long way in creating a positive relationship dynamic. Another key element in fostering healthy relationships is sharing common interests or experiences.",
+        "sentence": "Spending time together doing activities that everyone enjoys can help build a stronger sense of connection between people.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others. One of the most important aspects of developing positive relationships is communication. It is essential to be clear when communicating with others and to listen attentively when they are speaking. Additionally, being respectful and considerate of other people's feelings and needs goes a long way in creating a positive relationship dynamic. Another key element in fostering healthy relationships is sharing common interests or experiences. Spending time together doing activities that everyone enjoys can help build a stronger sense of connection between people.",
+        "sentence": "Finally, showing appreciation for someone else - whether it's through words or actions - lets them know that they are valued which strengthens the bond between you both.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited.",
+        "sentence": "He loves learning about new cultures, foods and customs.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs.",
+        "sentence": "So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs. So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along.",
+        "sentence": "The Uncharted Territories are full of surprises and Gary loves every minute of it.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs. So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along. The Uncharted Territories are full of surprises and Gary loves every minute of it.",
+        "sentence": "From the moment they set off, he is constantly asking questions and exploring everything around him.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs. So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along. The Uncharted Territories are full of surprises and Gary loves every minute of it. From the moment they set off, he is constantly asking questions and exploring everything around him.",
+        "sentence": "He even manages to make friends with some of the local animals.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs. So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along. The Uncharted Territories are full of surprises and Gary loves every minute of it. From the moment they set off, he is constantly asking questions and exploring everything around him. He even manages to make friends with some of the local animals.",
+        "sentence": "The journey is tough but ultimately rewarding as Gary gets to see parts of the world that nobody else has seen before.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs. So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along. The Uncharted Territories are full of surprises and Gary loves every minute of it. From the moment they set off, he is constantly asking questions and exploring everything around him. He even manages to make friends with some of the local animals. The journey is tough but ultimately rewarding as Gary gets to see parts of the world that nobody else has seen before.",
+        "sentence": "He can't wait to come back and explore more.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Mark was an ambitious young man.",
+        "sentence": "He had high aspirations and wanted to make a big impact in the world.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Mark was an ambitious young man. He had high aspirations and wanted to make a big impact in the world.",
+        "sentence": "So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Mark was an ambitious young man. He had high aspirations and wanted to make a big impact in the world. So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities.",
+        "sentence": "When it came time for interviews, Mark proved himself with intellectual and knowledgeable.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Mark was an ambitious young man. He had high aspirations and wanted to make a big impact in the world. So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities. When it came time for interviews, Mark proved himself with intellectual and knowledgeable.",
+        "sentence": "He also showed great potential as a leader - capacitor bosses often Appoint from behind the scenes due to their impressive skills in operation or management However, there were several other qualities that stood out most during mark's interview process: 4).He had EARLY reference material available on how people behaved under pressure; ) ).",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "Mark was an ambitious young man. He had high aspirations and wanted to make a big impact in the world. So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities. When it came time for interviews, Mark proved himself with intellectual and knowledgeable. He also showed great potential as a leader - capacitor bosses often Appoint from behind the scenes due to their impressive skills in operation or management However, there were several other qualities that stood out most during mark's interview process: 4).He had EARLY reference material available on how people behaved under pressure; ) ).",
+        "sentence": "Plus, I think those skills will be extremely valuable when we start working section ).",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "Mark was an ambitious young man. He had high aspirations and wanted to make a big impact in the world. So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities. When it came time for interviews, Mark proved himself with intellectual and knowledgeable. He also showed great potential as a leader - capacitor bosses often Appoint from behind the scenes due to their impressive skills in operation or management However, there were several other qualities that stood out most during mark's interview process: 4).He had EARLY reference material available on how people behaved under pressure; ) ). Plus, I think those skills will be extremely valuable when we start working section ).",
+        "sentence": "In short, mark was perfect for this position!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully.",
+        "sentence": "The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential.",
+        "sentence": "Over the years, they have helped countless people achieve their dreams and go on to lead successful lives.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential. Over the years, they have helped countless people achieve their dreams and go on to lead successful lives.",
+        "sentence": "One success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential. Over the years, they have helped countless people achieve their dreams and go on to lead successful lives. One success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles.",
+        "sentence": "With the help of The Foundation for a Bright Future, she was able to earn a full scholarship to UCLA where she eventually graduated with honors.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential. Over the years, they have helped countless people achieve their dreams and go on to lead successful lives. One success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles. With the help of The Foundation for a Bright Future, she was able to earn a full scholarship to UCLA where she eventually graduated with honors.",
+        "sentence": "Today, she works as an accountant for one of the largest firms in LA and gives back to her community whenever she can.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential. Over the years, they have helped countless people achieve their dreams and go on to lead successful lives. One success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles. With the help of The Foundation for a Bright Future, she was able to earn a full scholarship to UCLA where she eventually graduated with honors. Today, she works as an accountant for one of the largest firms in LA and gives back to her community whenever she can.",
+        "sentence": "The Foundation for a Bright Future has truly made a difference in many young people's lives; giving them hope when there seemed none before.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential. Over the years, they have helped countless people achieve their dreams and go on to lead successful lives. One success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles. With the help of The Foundation for a Bright Future, she was able to earn a full scholarship to UCLA where she eventually graduated with honors. Today, she works as an accountant for one of the largest firms in LA and gives back to her community whenever she can. The Foundation for a Bright Future has truly made a difference in many young people's lives; giving them hope when there seemed none before.",
+        "sentence": "Their work continues to change lives every day and brighten futures across America!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel.",
+        "sentence": "I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring.",
+        "sentence": "As I got closer, I saw that there was somebody inside the truck - Nolan Richardson!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring. As I got closer, I saw that there was somebody inside the truck - Nolan Richardson!",
+        "sentence": "Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring. As I got closer, I saw that there was somebody inside the truck - Nolan Richardson! Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally.",
+        "sentence": "As soon as I pulled up, Adden started moving around the truck but then stopped when he saw me coming.\"Hi,\" Nichols said warily as he hopped out of his car.\"You're one of those 'Recovering Vietnam Veterans Only' types?\" My neighbor asked me rhetorically; fresh off his own deployment nearby several months earlier.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R6: Data relevance - The new sentence is not relevant to previous data in the story"
+            }
+        ]
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring. As I got closer, I saw that there was somebody inside the truck - Nolan Richardson! Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally. As soon as I pulled up, Adden started moving around the truck but then stopped when he saw me coming.\"Hi,\" Nichols said warily as he hopped out of his car.\"You're one of those 'Recovering Vietnam Veterans Only' types?\" My neighbor asked me rhetorically; fresh off his own deployment nearby several months earlier.",
+        "sentence": "\"Why don't you just stay put?",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring. As I got closer, I saw that there was somebody inside the truck - Nolan Richardson! Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally. As soon as I pulled up, Adden started moving around the truck but then stopped when he saw me coming.\"Hi,\" Nichols said warily as he hopped out of his car.\"You're one of those 'Recovering Vietnam Veterans Only' types?\" My neighbor asked me rhetorically; fresh off his own deployment nearby several months earlier. \"Why don't you just stay put?",
+        "sentence": "You look family-oriented or something.\"\"No, no need for 52 paternalistic interventions here,\" quipped Jenkins while shaking my hand (paternalistically not at all).",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R6: Data relevance - The new sentence is not relevant to previous data in the story"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring. As I got closer, I saw that there was somebody inside the truck - Nolan Richardson! Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally. As soon as I pulled up, Adden started moving around the truck but then stopped when he saw me coming.\"Hi,\" Nichols said warily as he hopped out of his car.\"You're one of those 'Recovering Vietnam Veterans Only' types?\" My neighbor asked me rhetorically; fresh off his own deployment nearby several months earlier. \"Why don't you just stay put? You look family-oriented or something.\"\"No, no need for 52 paternalistic interventions here,\" quipped Jenkins while shaking my hand (paternalistically not at all).",
+        "sentence": "Nicholson sounded empathetic enough-\"Hey man- if dinner smells good let me know” Nolan sighed Radeonically before following Irvine back into Cover Girl factory atmosphere where all your friends smoke cigarettes because they think nicotine is a KILLER inductor which degrades genes instead of additivity architecturally speaking.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R6: Data relevance - The new sentence is not relevant to previous data in the story"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "The night of the white wolf was a sacred time for the Native Americans.",
+        "sentence": "It was when they would howl at the moon and honor their ancestors.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The night of the white wolf was a sacred time for the Native Americans. It was when they would howl at the moon and honor their ancestors.",
+        "sentence": "The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The night of the white wolf was a sacred time for the Native Americans. It was when they would howl at the moon and honor their ancestors. The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed.",
+        "sentence": "Every year, on the night of the full moon in October, tribes from all over America would gather to howl together.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The night of the white wolf was a sacred time for the Native Americans. It was when they would howl at the moon and honor their ancestors. The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed. Every year, on the night of the full moon in October, tribes from all over America would gather to howl together.",
+        "sentence": "This tradition continued for centuries until it was eventually forgotten.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The night of the white wolf was a sacred time for the Native Americans. It was when they would howl at the moon and honor their ancestors. The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed. Every year, on the night of the full moon in October, tribes from all over America would gather to howl together. This tradition continued for centuries until it was eventually forgotten.",
+        "sentence": "But last year, on October 31st, something strange happened.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The night of the white wolf was a sacred time for the Native Americans. It was when they would howl at the moon and honor their ancestors. The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed. Every year, on the night of the full moon in October, tribes from all over America would gather to howl together. This tradition continued for centuries until it was eventually forgotten. But last year, on October 31st, something strange happened.",
+        "sentence": "In towns and cities across America, people suddenly started hearing wolves howling in the distance.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Frank was a foolish man.",
+        "sentence": "He loved to gamble and he always forgot the rules.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Frank was a foolish man. He loved to gamble and he always forgot the rules.",
+        "sentence": "This led to lots of bad consequences for him and his family.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Frank was a foolish man. He loved to gamble and he always forgot the rules. This led to lots of bad consequences for him and his family.",
+        "sentence": "One day, Frank lost a lot of money in a bet with an old friend.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Frank was a foolish man. He loved to gamble and he always forgot the rules. This led to lots of bad consequences for him and his family. One day, Frank lost a lot of money in a bet with an old friend.",
+        "sentence": "When Frank found out, he became very sad because now all his money was gone along with the friendship that they had shared before.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sam the cat loved nothing more than a good nap in the sun.",
+        "sentence": "But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sam the cat loved nothing more than a good nap in the sun. But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face.",
+        "sentence": "He opened his eyes to see a big black Labrador retriever staring at him expectantly.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sam the cat loved nothing more than a good nap in the sun. But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face. He opened his eyes to see a big black Labrador retriever staring at him expectantly.",
+        "sentence": "\"Shoo!\" Sam said, waving a paw at the dog.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sam the cat loved nothing more than a good nap in the sun. But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face. He opened his eyes to see a big black Labrador retriever staring at him expectantly. \"Shoo!\" Sam said, waving a paw at the dog.",
+        "sentence": "But the dog just sat down and looked at him with soulful eyes, as if to say 'please be my friend.' Against his better judgment, Sam found himself softening towards the big puppy.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sam the cat loved nothing more than a good nap in the sun. But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face. He opened his eyes to see a big black Labrador retriever staring at him expectantly. \"Shoo!\" Sam said, waving a paw at the dog. But the dog just sat down and looked at him with soulful eyes, as if to say 'please be my friend.' Against his better judgment, Sam found himself softening towards the big puppy.",
+        "sentence": "After all, it wasn't entirely its fault that it was so born goofy looking.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Sam the cat loved nothing more than a good nap in the sun. But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face. He opened his eyes to see a big black Labrador retriever staring at him expectantly. \"Shoo!\" Sam said, waving a paw at the dog. But the dog just sat down and looked at him with soulful eyes, as if to say 'please be my friend.' Against his better judgment, Sam found himself softening towards the big puppy. After all, it wasn't entirely its fault that it was so born goofy looking.",
+        "sentence": "And before long, they were best friends who loved playing together – even if their games sometimes ended with Sam getting covered in drool.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person.",
+        "sentence": "She loved life and made the best of every situation.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation.",
+        "sentence": "However, Kate had a secret past that she never talked about.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about.",
+        "sentence": "When she was younger, her parents were killed in a car accident.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about. When she was younger, her parents were killed in a car accident.",
+        "sentence": "Kate was left alone in the world with no one to turn to.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about. When she was younger, her parents were killed in a car accident. Kate was left alone in the world with no one to turn to.",
+        "sentence": "She did whatever it took to survive on the streets until she finally found her way into foster care.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about. When she was younger, her parents were killed in a car accident. Kate was left alone in the world with no one to turn to. She did whatever it took to survive on the streets until she finally found her way into foster care.",
+        "sentence": "From then on, Kate tried to put her past behind her and live for the present and future, but it wasn't always easy.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about. When she was younger, her parents were killed in a car accident. Kate was left alone in the world with no one to turn to. She did whatever it took to survive on the streets until she finally found her way into foster care. From then on, Kate tried to put her past behind her and live for the present and future, but it wasn't always easy.",
+        "sentence": "Sometimes when she was feeling down or lost, she would think about her parents and how much they loved her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about. When she was younger, her parents were killed in a car accident. Kate was left alone in the world with no one to turn to. She did whatever it took to survive on the streets until she finally found her way into foster care. From then on, Kate tried to put her past behind her and live for the present and future, but it wasn't always easy. Sometimes when she was feeling down or lost, she would think about her parents and how much they loved her.",
+        "sentence": "That would give her the strength to carry on knowing that they were watching over her from heaven.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war.",
+        "sentence": "France had been overrun by the Nazis and life for the French people was very difficult.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult.",
+        "sentence": "Many people were Collaborators, working with the Nazis to make things easier for themselves.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves.",
+        "sentence": "But there were also those who resisted Nazi rule.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves. But there were also those who resisted Nazi rule.",
+        "sentence": "They became known as the Resistance.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves. But there were also those who resisted Nazi rule. They became known as the Resistance.",
+        "sentence": "The French Resistance did everything they could to sabotage Nazi plans and help Allied forces.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves. But there were also those who resisted Nazi rule. They became known as the Resistance. The French Resistance did everything they could to sabotage Nazi plans and help Allied forces.",
+        "sentence": "They printed anti-Nazi leaflets, blew up trains and bridges, attacked German soldiers, and helped Jews escape from concentration camps.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves. But there were also those who resisted Nazi rule. They became known as the Resistance. The French Resistance did everything they could to sabotage Nazi plans and help Allied forces. They printed anti-Nazi leaflets, blew up trains and bridges, attacked German soldiers, and helped Jews escape from concentration camps.",
+        "sentence": "It was dangerous work – many Resistants were captured or killed by the Gestapo (the Nazi secret police).",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves. But there were also those who resisted Nazi rule. They became known as the Resistance. The French Resistance did everything they could to sabotage Nazi plans and help Allied forces. They printed anti-Nazi leaflets, blew up trains and bridges, attacked German soldiers, and helped Jews escape from concentration camps. It was dangerous work – many Resistants were captured or killed by the Gestapo (the Nazi secret police).",
+        "sentence": "But they continued to fight back until liberation came in 1944.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in.",
+        "sentence": "She was always a bit too tall, a bit too skinny, and her nose was a bit too big.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big.",
+        "sentence": "But she had a kind heart and a quick wit, and she was always able to make her friends laugh.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh.",
+        "sentence": "One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering.",
+        "sentence": "As she got closer, she could hear them laughing and pointing at her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering. As she got closer, she could hear them laughing and pointing at her.",
+        "sentence": "Hila's heart sank as she realized they were making fun of her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering. As she got closer, she could hear them laughing and pointing at her. Hila's heart sank as she realized they were making fun of her.",
+        "sentence": "But she didn't let it get to her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering. As she got closer, she could hear them laughing and pointing at her. Hila's heart sank as she realized they were making fun of her. But she didn't let it get to her.",
+        "sentence": "She knew she was different, but she also knew that was what made her special.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering. As she got closer, she could hear them laughing and pointing at her. Hila's heart sank as she realized they were making fun of her. But she didn't let it get to her. She knew she was different, but she also knew that was what made her special.",
+        "sentence": "And she was determined not to let the mean girls get to her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering. As she got closer, she could hear them laughing and pointing at her. Hila's heart sank as she realized they were making fun of her. But she didn't let it get to her. She knew she was different, but she also knew that was what made her special. And she was determined not to let the mean girls get to her.",
+        "sentence": "So she walked tall and held her head up high, and she never let them see her cry.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience!",
+        "sentence": "We offer a variety of different types of eggs suited to any dietary restriction or preference.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference.",
+        "sentence": "Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference. Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs.",
+        "sentence": "Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings).",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference. Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs. Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings).",
+        "sentence": "There's something about these fresh-made eggs that makes you feel like you're eating something special - no two were alike!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference. Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs. Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings). There's something about these fresh-made eggs that makes you feel like you're eating something special - no two were alike!",
+        "sentence": "Whether it was the way they tasted when I first tried them or how amazing they looked on my plate - every one at Eggs From Above knows their stuff.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference. Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs. Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings). There's something about these fresh-made eggs that makes you feel like you're eating something special - no two were alike! Whether it was the way they tasted when I first tried them or how amazing they looked on my plate - every one at Eggs From Above knows their stuff.",
+        "sentence": "And don't forget their thick buttermilk armour sauce - just right amount topped off by a perfectly fried golden yolk.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference. Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs. Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings). There's something about these fresh-made eggs that makes you feel like you're eating something special - no two were alike! Whether it was the way they tasted when I first tried them or how amazing they looked on my plate - every one at Eggs From Above knows their stuff. And don't forget their thick buttermilk armour sauce - just right amount topped off by a perfectly fried golden yolk.",
+        "sentence": "OH MY GODS.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was the last race of the season and everything was on the line.",
+        "sentence": "The two fastest horses in the world were pitted against each other in a desperate attempt to win.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "It was the last race of the season and everything was on the line. The two fastest horses in the world were pitted against each other in a desperate attempt to win.",
+        "sentence": "They both walked as slowly as they could in order to run, but it wasn’t enough.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "It was the last race of the season and everything was on the line. The two fastest horses in the world were pitted against each other in a desperate attempt to win. They both walked as slowly as they could in order to run, but it wasn’t enough.",
+        "sentence": "They had to be mentally strong to walk all 42km to finish the race.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "I remember the first time I ever went to the beach.",
+        "sentence": "I was six years old and my family had gone on vacation to Florida.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I remember the first time I ever went to the beach. I was six years old and my family had gone on vacation to Florida.",
+        "sentence": "As soon as we arrived, I ran straight for the shoreline.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I remember the first time I ever went to the beach. I was six years old and my family had gone on vacation to Florida. As soon as we arrived, I ran straight for the shoreline.",
+        "sentence": "The sand was warm and soft, and the waves were crashing against the shore.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I remember the first time I ever went to the beach. I was six years old and my family had gone on vacation to Florida. As soon as we arrived, I ran straight for the shoreline. The sand was warm and soft, and the waves were crashing against the shore.",
+        "sentence": "I loved it.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I remember the first time I ever went to the beach. I was six years old and my family had gone on vacation to Florida. As soon as we arrived, I ran straight for the shoreline. The sand was warm and soft, and the waves were crashing against the shore. I loved it.",
+        "sentence": "Since then, I have been to many different beaches all around the world but that first experience will always stay with me.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I remember the first time I ever went to the beach. I was six years old and my family had gone on vacation to Florida. As soon as we arrived, I ran straight for the shoreline. The sand was warm and soft, and the waves were crashing against the shore. I loved it. Since then, I have been to many different beaches all around the world but that first experience will always stay with me.",
+        "sentence": "Every time I see a beach now, it brings back hard and hurtful memories.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever.",
+        "sentence": "I was suddenly responsible for another human being, and I couldn't help but feel a little terrified.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever. I was suddenly responsible for another human being, and I couldn't help but feel a little terrified.",
+        "sentence": "But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever. I was suddenly responsible for another human being, and I couldn't help but feel a little terrified. But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her.",
+        "sentence": "And so began our journey as a family.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever. I was suddenly responsible for another human being, and I couldn't help but feel a little terrified. But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her. And so began our journey as a family.",
+        "sentence": "Throughout the years there have been ups and downs, but we've always stuck together through it all.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever. I was suddenly responsible for another human being, and I couldn't help but feel a little terrified. But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her. And so began our journey as a family. Throughout the years there have been ups and downs, but we've always stuck together through it all.",
+        "sentence": "We've laughed together, cried together, and everything in between.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever. I was suddenly responsible for another human being, and I couldn't help but feel a little terrified. But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her. And so began our journey as a family. Throughout the years there have been ups and downs, but we've always stuck together through it all. We've laughed together, cried together, and everything in between.",
+        "sentence": "My girls are now grown women with families of their own, but they will always be my babies no matter how old they get.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "My parents always have a family vacation every year.",
+        "sentence": "We usually go to some island or another and spend time with them.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them.",
+        "sentence": "This year they decided to take a trip to the Bahamas!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas!",
+        "sentence": "It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while.",
+        "sentence": "I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too!",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too!",
+        "sentence": "I did some research online ahead of time and found out about all the activities that were available there, too.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too! I did some research online ahead of time and found out about all the activities that were available there, too.",
+        "sentence": "So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes).",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too! I did some research online ahead of time and found out about all the activities that were available there, too. So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes).",
+        "sentence": "Sunday night marked the beginning of our trip which would also include one day in Nassau just.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too! I did some research online ahead of time and found out about all the activities that were available there, too. So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes). Sunday night marked the beginning of our trip which would also include one day in Nassau just.",
+        "sentence": "We WENT.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too! I did some research online ahead of time and found out about all the activities that were available there, too. So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes). Sunday night marked the beginning of our trip which would also include one day in Nassau just. We WENT.",
+        "sentence": "The best part about this trip?",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too! I did some research online ahead of time and found out about all the activities that were available there, too. So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes). Sunday night marked the beginning of our trip which would also include one day in Nassau just. We WENT. The best part about this trip?",
+        "sentence": "The weather- everyone said it looked beautiful but by Monday afternoon Palm Beach had turned into ankle-deep rainforest, literally everything either dried off during their stay or got moldy no matter how long you tried Putting everything back together is going as planned but still felt unwelcome.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "One day, a new company named UBS Trade Products was founded with the goal of making it easier for banks and other financial institutions to trade products.",
+        "sentence": "New processes were established so that buyers and sellers could communicate quickly and easily, which made trading goods quicker, more efficient and cost-effective.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "One day, a new company named UBS Trade Products was founded with the goal of making it easier for banks and other financial institutions to trade products. New processes were established so that buyers and sellers could communicate quickly and easily, which made trading goods quicker, more efficient and cost-effective.",
+        "sentence": "The company even created a shopping cart system so that customers could easily find what they were looking for.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a phantom who haunted the valley.",
+        "sentence": "He would always appear at night, and no one knew what he looked like.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a phantom who haunted the valley. He would always appear at night, and no one knew what he looked like.",
+        "sentence": "Some people said he was a monster, while others said he was just a man in a cloak.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a phantom who haunted the valley. He would always appear at night, and no one knew what he looked like. Some people said he was a monster, while others said he was just a man in a cloak.",
+        "sentence": "No one knew for sure.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "There was once a phantom who haunted the valley. He would always appear at night, and no one knew what he looked like. Some people said he was a monster, while others said he was just a man in a cloak. No one knew for sure.",
+        "sentence": "One night, Tom decided to venture into the valley to see if they could catch a glimpse of the phantom.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            }
+        ]
+    },
+    {
+        "context": "There was once a phantom who haunted the valley. He would always appear at night, and no one knew what he looked like. Some people said he was a monster, while others said he was just a man in a cloak. No one knew for sure. One night, Tom decided to venture into the valley to see if they could catch a glimpse of the phantom.",
+        "sentence": "He suffered from phantom pain that no physician could ever find.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "There was once a phantom who haunted the valley. He would always appear at night, and no one knew what he looked like. Some people said he was a monster, while others said he was just a man in a cloak. No one knew for sure. One night, Tom decided to venture into the valley to see if they could catch a glimpse of the phantom. He suffered from phantom pain that no physician could ever find.",
+        "sentence": "But braved this pain to go to work.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "The Road to Redemption is a heartwarming story of hope and second chances.",
+        "sentence": "After years of struggling with addiction, John finally decides to get clean.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Road to Redemption is a heartwarming story of hope and second chances. After years of struggling with addiction, John finally decides to get clean.",
+        "sentence": "He knows it won't be easy, but he's ready to do whatever it takes to turn his life around.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Road to Redemption is a heartwarming story of hope and second chances. After years of struggling with addiction, John finally decides to get clean. He knows it won't be easy, but he's ready to do whatever it takes to turn his life around.",
+        "sentence": "With the support of his loved ones, John enters rehab and starts on the long road to recovery.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Road to Redemption is a heartwarming story of hope and second chances. After years of struggling with addiction, John finally decides to get clean. He knows it won't be easy, but he's ready to do whatever it takes to turn his life around. With the support of his loved ones, John enters rehab and starts on the long road to recovery.",
+        "sentence": "It's a difficult journey, but John is determined to make it all the way back to rock bottom.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "The Road to Redemption is a heartwarming story of hope and second chances. After years of struggling with addiction, John finally decides to get clean. He knows it won't be easy, but he's ready to do whatever it takes to turn his life around. With the support of his loved ones, John enters rehab and starts on the long road to recovery. It's a difficult journey, but John is determined to make it all the way back to rock bottom.",
+        "sentence": "Ultimately, he fails his recovery and dies from an overdose.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Once upon a time, a woman loved her home so much that she decided to stay there forever.",
+        "sentence": "Her husband couldn't help but envy her and wished he could see hers again.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "Once upon a time, a woman loved her home so much that she decided to stay there forever. Her husband couldn't help but envy her and wished he could see hers again.",
+        "sentence": "one day, she will come home to find him sick in bed with something Philadelphia's medical record can assist us in diagnosing- sepsis!",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R6: Data relevance - The new sentence is not relevant to previous data in the story"
+            },
+            {
+                "reason": "R7: Title relevance - The new sentence is not relevant to the topic"
+            }
+        ]
+    },
+    {
+        "context": "The world was ending.",
+        "sentence": "The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky.",
+        "sentence": "The last hero knew that it was time to end his journey.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey.",
+        "sentence": "He had fought for so long and accomplished so much, but now there was nothing left to fight for.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for.",
+        "sentence": "He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for. He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate.",
+        "sentence": "He walked for days, weeks, months perhaps – he lost track of time in the endless night.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for. He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate. He walked for days, weeks, months perhaps – he lost track of time in the endless night.",
+        "sentence": "His only companions were his memories of all those he’d loved and lost along the way.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for. He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate. He walked for days, weeks, months perhaps – he lost track of time in the endless night. His only companions were his memories of all those he’d loved and lost along the way.",
+        "sentence": "Finally he came to a great door made of ebony wood with silver hinges; behind it lay utter blackness.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for. He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate. He walked for days, weeks, months perhaps – he lost track of time in the endless night. His only companions were his memories of all those he’d loved and lost along the way. Finally he came to a great door made of ebony wood with silver hinges; behind it lay utter blackness.",
+        "sentence": "The hero knew this was death’s door – and yet somehow he also knew that beyond it lay final peace and rest from his weary travels at last.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for. He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate. He walked for days, weeks, months perhaps – he lost track of time in the endless night. His only companions were his memories of all those he’d loved and lost along the way. Finally he came to a great door made of ebony wood with silver hinges; behind it lay utter blackness. The hero knew this was death’s door – and yet somehow he also knew that beyond it lay final peace and rest from his weary travels at last.",
+        "sentence": "He hesitated only briefly before opening the door wide.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Election day finally came.",
+        "sentence": "All the people who usually Vote at home had gone to vote this year, but there was one last elephant in the room-Voters Who Were Absent.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            }
+        ]
+    },
+    {
+        "context": "Election day finally came. All the people who usually Vote at home had gone to vote this year, but there was one last elephant in the room-Voters Who Were Absent.",
+        "sentence": "Many of these voters were likely abroad on holiday or couldn't get out to cast their ballot, leaving their voting machines behind.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "Election day finally came. All the people who usually Vote at home had gone to vote this year, but there was one last elephant in the room-Voters Who Were Absent. Many of these voters were likely abroad on holiday or couldn't get out to cast their ballot, leaving their voting machines behind.",
+        "sentence": "In an effort to make up for lost time, most local election officials set up poll locations throughout the city and offered voting continued after school currently there is no formal way of granting absentee votes (though variations exist), so many rvoters simply skipped town without picking up a balloting cartridge.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries.",
+        "sentence": "It is said to grant its holder great power and wealth.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth.",
+        "sentence": "The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember.",
+        "sentence": "There are many factions vying for control of the jewel, and the stakes are high.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember. There are many factions vying for control of the jewel, and the stakes are high.",
+        "sentence": "Lives have been lost, whole armies have been destroyed, but the battle continues.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember. There are many factions vying for control of the jewel, and the stakes are high. Lives have been lost, whole armies have been destroyed, but the battle continues.",
+        "sentence": "One day, a young warrior decides to take up arms and join the fight.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember. There are many factions vying for control of the jewel, and the stakes are high. Lives have been lost, whole armies have been destroyed, but the battle continues. One day, a young warrior decides to take up arms and join the fight.",
+        "sentence": "He knows it will be dangerous, but he feels drawn to the jewel's power.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember. There are many factions vying for control of the jewel, and the stakes are high. Lives have been lost, whole armies have been destroyed, but the battle continues. One day, a young warrior decides to take up arms and join the fight. He knows it will be dangerous, but he feels drawn to the jewel's power.",
+        "sentence": "He trains hard and quickly becomes one of the most skilled fighters in his faction.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember. There are many factions vying for control of the jewel, and the stakes are high. Lives have been lost, whole armies have been destroyed, but the battle continues. One day, a young warrior decides to take up arms and join the fight. He knows it will be dangerous, but he feels drawn to the jewel's power. He trains hard and quickly becomes one of the most skilled fighters in his faction.",
+        "sentence": "When he finally enters into combat against his enemies, he quickly realizes why this conflict is so important - because whoever controls the Sacred Jewel controls fate itself.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars.",
+        "sentence": "I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw.",
+        "sentence": "In school, I learned about cosmology—the study of the body.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body.",
+        "sentence": "And suddenly, all those dots in the sky made so much more sense to me.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body. And suddenly, all those dots in the sky made so much more sense to me.",
+        "sentence": "The universe is small—so small that it’s impossible for us to truly comprehend its size.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body. And suddenly, all those dots in the sky made so much more sense to me. The universe is small—so small that it’s impossible for us to truly comprehend its size.",
+        "sentence": "And yet, despite its vastness, it is also incredibly orderly and predictable.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body. And suddenly, all those dots in the sky made so much more sense to me. The universe is small—so small that it’s impossible for us to truly comprehend its size. And yet, despite its vastness, it is also incredibly orderly and predictable.",
+        "sentence": "That’s because cosmologists have spent centuries studying how everything in the universe works together.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body. And suddenly, all those dots in the sky made so much more sense to me. The universe is small—so small that it’s impossible for us to truly comprehend its size. And yet, despite its vastness, it is also incredibly orderly and predictable. That’s because cosmologists have spent centuries studying how everything in the universe works together.",
+        "sentence": "We now know that our galaxy—the Milky Way—is just one of hundreds of billions of galaxies in existence.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body. And suddenly, all those dots in the sky made so much more sense to me. The universe is small—so small that it’s impossible for us to truly comprehend its size. And yet, despite its vastness, it is also incredibly orderly and predictable. That’s because cosmologists have spent centuries studying how everything in the universe works together. We now know that our galaxy—the Milky Way—is just one of hundreds of billions of galaxies in existence.",
+        "sentence": "Each galaxy contains millions or even billions of stars like our sun; our own solar system is just one tiny part of the Milky Way Galaxy.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology—the study of the body. And suddenly, all those dots in the sky made so much more sense to me. The universe is small—so small that it’s impossible for us to truly comprehend its size. And yet, despite its vastness, it is also incredibly orderly and predictable. That’s because cosmologists have spent centuries studying how everything in the universe works together. We now know that our galaxy—the Milky Way—is just one of hundreds of billions of galaxies in existence. Each galaxy contains millions or even billions of stars like our sun; our own solar system is just one tiny part of the Milky Way Galaxy.",
+        "sentence": "Cosmologists have also discovered that there are laws that govern how everything in the universe behaves; these laws are what allow us to make predictions about things like eclipses and comets passing by Earth.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Alice is a curious girl who loves to learn about the world around her.",
+        "sentence": "So when she discovered the fascinating world of immunology, she was eager to learn more.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Alice is a curious girl who loves to learn about the world around her. So when she discovered the fascinating world of immunology, she was eager to learn more.",
+        "sentence": "She started by learning about the different types of immune cells and how they work together to protect our bodies from disease.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Alice is a curious girl who loves to learn about the world around her. So when she discovered the fascinating world of immunology, she was eager to learn more. She started by learning about the different types of immune cells and how they work together to protect our bodies from disease.",
+        "sentence": "Then she learned about how our immune system helps us fight off infections and keep us healthy.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Alice is a curious girl who loves to learn about the world around her. So when she discovered the fascinating world of immunology, she was eager to learn more. She started by learning about the different types of immune cells and how they work together to protect our bodies from disease. Then she learned about how our immune system helps us fight off infections and keep us healthy.",
+        "sentence": "Finally, Alice learned about some of the diseases that can occur when our immune system isn't working properly.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "Alice is a curious girl who loves to learn about the world around her. So when she discovered the fascinating world of immunology, she was eager to learn more. She started by learning about the different types of immune cells and how they work together to protect our bodies from disease. Then she learned about how our immune system helps us fight off infections and keep us healthy. Finally, Alice learned about some of the diseases that can occur when our immune system isn't working properly.",
+        "sentence": "After spending hours reading and researching, Alice got dismissive about what immunology and all it has to offer.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations.",
+        "sentence": "It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations. It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs.",
+        "sentence": "The farm also contains many sheds and barns dedicated to the care of their animals.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations. It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs. The farm also contains many sheds and barns dedicated to the care of their animals.",
+        "sentence": "The ranch was originally founded by Hardy Chandler who began the business in 1914.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations. It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs. The farm also contains many sheds and barns dedicated to the care of their animals. The ranch was originally founded by Hardy Chandler who began the business in 1914.",
+        "sentence": "In his time it became one of Arizona's most important cotton-producing communities from its production on site alone totaling eighty million pounds ils worth of goods each year.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            }
+        ]
+    },
+    {
+        "context": "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations. It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs. The farm also contains many sheds and barns dedicated to the care of their animals. The ranch was originally founded by Hardy Chandler who began the business in 1914. In his time it became one of Arizona's most important cotton-producing communities from its production on site alone totaling eighty million pounds ils worth of goods each year.",
+        "sentence": "Over time other businesses have cropped up onsite such as a convenience store and car shop but camel crops remain an essential part of the ranch’s economy today as they provide milk for their cow herd, hay for their horses and shoes (and sometimes even arc spectacles) to aid with sightseeing tours inside their enclosures!",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R4: Data consistency - The new sentence contains information inconsistent with previous presented data"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "Once upon a time, a magical kingdom ruled by an evil queen boasted many beautiful star-studded palaces.",
+        "sentence": "One day, she ordered her Baleful Banker to start burning down the elegant residences of her subjects in order to raising money for castles and raids.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            },
+            {
+                "reason": "R3: Discourse relation - The relation between this sentence and previous ones doesn’t make sense"
+            },
+            {
+                "reason": "R5: World knowledge - The new sentence contains information inconsistent with your knowledge about the world"
+            }
+        ]
+    },
+    {
+        "context": "Once upon a time, a magical kingdom ruled by an evil queen boasted many beautiful star-studded palaces. One day, she ordered her Baleful Banker to start burning down the elegant residences of her subjects in order to raising money for castles and raids.",
+        "sentence": "Little did she know that when the countess woke up from dreaming of being Pyro clocked inside one of these luxurious homes, she vowed to kill off this cursed queen once and for all.",
+        "is_coherent": false,
+        "edit": [
+            {
+                "reason": "R1: Sense - The sentence doesn’t make sense"
+            },
+            {
+                "reason": "R2: Entity connection - The new sentence discusses an entity which has not been introduced yet"
+            }
+        ]
+    },
+    {
+        "context": "I enjoy sitting in my tree house and looking out at the world.",
+        "sentence": "I can see for miles from up here, and it's always so peaceful.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I enjoy sitting in my tree house and looking out at the world. I can see for miles from up here, and it's always so peaceful.",
+        "sentence": "It's like my own little haven away from everything.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I enjoy sitting in my tree house and looking out at the world. I can see for miles from up here, and it's always so peaceful. It's like my own little haven away from everything.",
+        "sentence": "I can just sit back and watch the world go by below me.",
+        "is_coherent": true,
+        "edit": []
+    },
+    {
+        "context": "I enjoy sitting in my tree house and looking out at the world. I can see for miles from up here, and it's always so peaceful. It's like my own little haven away from everything. I can just sit back and watch the world go by below me.",
+        "sentence": "Sometimes I even feel like a bird myself, soaring high above everything else.",
+        "is_coherent": true,
+        "edit": []
+    }
+]

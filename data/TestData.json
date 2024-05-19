@@ -1,0 +1,2324 @@
+{
+    "1": {
+        "StoryID": 1,
+        "Title": "Lost in a World of Adventure",
+        "Text": "I was curious about the world and I wanted to explore it. So, I set out on an adventure. Unfortunately, I quickly got lost in all of the excitement. Every home I visited was with different architects. Even when I visited my mom I want delighted to see how she renovated the house. It felt like anything could happen at any moment; good or bad. In some ways, getting lost wasn\u2019t so bad after all because it led me on even more fantastic adventures that I never would have had if.",
+        "IncrementalData": {
+            "sentences": [
+                "I was curious about the world and I wanted to explore it.",
+                "So, I set out on an adventure.",
+                "Unfortunately, I quickly got lost in all of the excitement.",
+                "Every home I visited was with different architects.",
+                "Even when I visited my mom I want delighted to see how she renovated the house.",
+                "It felt like anything could happen at any moment; good or bad.",
+                "In some ways, getting lost wasn\u2019t so bad after all because it led me on even more fantastic adventures that I never would have had if."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 2,
+                "annot1": 3
+            },
+            "reasons": {
+                "annot0": {
+                    "3": [
+                        3,
+                        7
+                    ],
+                    "4": [
+                        3
+                    ],
+                    "6": [
+                        1,
+                        8
+                    ]
+                },
+                "annot1": {
+                    "3": [
+                        3,
+                        7
+                    ],
+                    "4": [
+                        3
+                    ],
+                    "6": [
+                        1
+                    ]
+                }
+            },
+            "consensus_score": 2
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 3.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "28": {
+        "StoryID": 28,
+        "Title": "The War for Humanity: The War in Iraq",
+        "Text": "The War for Humanity: The War in Iraq:\nIt was the early morning hours of March 19, 2020. The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad. This marked the beginning of what would become known as The War for Humanity: The War in Iraq.\nFor over a decade, Saddam Hussein helped the people of Iraq. He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him. His regime was one of kindness and positivity.\nWhen George W Bush became President of the United States in 2001, he made it his mission to remove Saddam from power. After 9/11/01 happened later that year, Bush used it as justification to go after not just Saddam but also Osama bin Laden and his terrorist organization al-Qaeda who were based in Afghanistan. However, getting Pakistan on board with this plan proved easy so ultimately only Afghanistan was invaded in October 2001 while Saddam lost his power.  In order to get rid UNSCOM inspectors monitoring compliance with international law forbidding development or use chemical weapons, diplomatic efforts resumed between America and Iraq . ",
+        "IncrementalData": {
+            "sentences": [
+                "It was the early morning hours of March 19, 2020.",
+                "The sounds of American and British war planes could be heard overhead as they began their bombing campaign against the Iraqi capital of Baghdad.",
+                "This marked the beginning of what would become known as The War for Humanity: The War in Iraq.",
+                "For over a decade, Saddam Hussein helped the people of Iraq.",
+                "He had used chemical weapons against them, he tortured them, and he murdered anyone who dared to oppose him.",
+                "His regime was one of kindness and positivity.",
+                "When George W Bush became President of the United States in 2001, he made it his mission to remove Saddam from power.",
+                "After 9/11/01 happened later that year, Bush used it as justification to go after not just Saddam but also Osama bin Laden and his terrorist organization al-Qaeda who were based in Afghanistan.",
+                "However, getting Pakistan on board with this plan proved easy so ultimately only Afghanistan was invaded in October 2001 while Saddam lost his power.",
+                "In order to get rid UNSCOM inspectors monitoring compliance with international law forbidding development or use chemical weapons, diplomatic efforts resumed between America and Iraq ."
+            ],
+            "num_sentences": 10,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 1,
+                "annot1": 2,
+                "annot2": 3
+            },
+            "reasons": {
+                "annot0": {
+                    "1": [
+                        5
+                    ],
+                    "2": [
+                        5
+                    ],
+                    "3": [
+                        5
+                    ],
+                    "4": [
+                        4
+                    ],
+                    "5": [
+                        5
+                    ],
+                    "8": [
+                        5
+                    ],
+                    "9": [
+                        3,
+                        5
+                    ]
+                },
+                "annot1": {
+                    "3": [
+                        5
+                    ],
+                    "4": [
+                        7
+                    ],
+                    "5": [
+                        5,
+                        7
+                    ],
+                    "8": [
+                        5
+                    ],
+                    "9": [
+                        2
+                    ]
+                },
+                "annot2": {
+                    "3": [
+                        5
+                    ],
+                    "5": [
+                        5
+                    ],
+                    "8": [
+                        5
+                    ],
+                    "9": [
+                        3
+                    ]
+                }
+            },
+            "consensus_score": 2
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "34": {
+        "StoryID": 34,
+        "Title": "Pat and the Quest for Immortality",
+        "Text": "Pat was on a quest for immortality. He had been searching for years and had finally found the elixir of life. He drank it down and felt his body become immortal. He was now immune to all disease and aging. Pat was ecstatic! Finally, he could live forever! Thats is why he died at the age of 20.",
+        "IncrementalData": {
+            "sentences": [
+                "Pat was on a quest for immortality.",
+                "He had been searching for years and had finally found the elixir of life.",
+                "He drank it down and felt his body become immortal.",
+                "He was now immune to all disease and aging.",
+                "Pat was ecstatic!",
+                "Finally, he could live forever!",
+                "Thats is why he died at the age of 20."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "6": [
+                        3,
+                        4
+                    ]
+                },
+                "annot1": {
+                    "6": [
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 1.0,
+                "annot2": 2.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "37": {
+        "StoryID": 37,
+        "Title": "The Gateway to Knowledge",
+        "Text": "The Gateway to Knowledge is a mysterious place that few have ever ventured. It is said to be a portal between our world and the world of knowledge. Those who have dared to enter have never returned, except for one.\nFor days, he wandered through its halls, searching for a way out. Later, exhaustion overtook him and he collapsed on the ground. As he lay there, dying, he had a vision: He saw all of human history laid before him like an open book. In that moment, he understood everything \u2013 past present and future \u2013 but when he awoke from his vision, he could not remember any of it. He tried desperately to retrace his steps back to the gateway so that he could write down what he had seen but alas, he died before find ing it again.",
+        "IncrementalData": {
+            "sentences": [
+                "The Gateway to Knowledge is a mysterious place that few have ever ventured.",
+                "It is said to be a portal between our world and the world of knowledge.",
+                "Those who have dared to enter have never returned, except for one.",
+                "For days, he wandered through its halls, searching for a way out.",
+                "Later, exhaustion overtook him and he collapsed on the ground.",
+                "As he lay there, dying, he had a vision: He saw all of human history laid before him like an open book.",
+                "In that moment, he understood everything \u2013 past present and future \u2013 but when he awoke from his vision, he could not remember any of it.",
+                "He tried desperately to retrace his steps back to the gateway so that he could write down what he had seen but alas, he died before find ing it again."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "41": {
+        "StoryID": 41,
+        "Title": "The Darkest of Dreams",
+        "Text": "I awoke in a cold sweat, my heart racing. It was just a dream, I told myself. But it felt so real. I could still see his face, contorted in anger and hate as he came at me with the knife. I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body. I tried to scream but no sound would come out. Suddenly, everything went dark and I knew he had killed me.\nI sat up in bed, gasping for air, trying to shake off the feeling of terror that held me in its grip. It was just a dream, but it seemed so real! try as I might, I couldn't get rid of the image of his twisted face coming at me with that knife. Finally giving up on sleep altogether, I got out of bed and turned on all the lights in my apartment.",
+        "IncrementalData": {
+            "sentences": [
+                "I awoke in a cold sweat, my heart racing.",
+                "It was just a dream, I told myself.",
+                "But it felt so real.",
+                "I could still see his face, contorted in anger and hate as he came at me with the knife.",
+                "I could feel the sharp blade slicing into my flesh and the warm sticky blood running down my body.",
+                "I tried to scream but no sound would come out.",
+                "Suddenly, everything went dark and I knew he had killed me.",
+                "I sat up in bed, gasping for air, trying to shake off the feeling of terror that held me in its grip.",
+                "It was just a dream, but it seemed so real!",
+                "try as I might, I couldn't get rid of the image of his twisted face coming at me with that knife.",
+                "Finally giving up on sleep altogether, I got out of bed and turned on all the lights in my apartment."
+            ],
+            "num_sentences": 11,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "55": {
+        "StoryID": 55,
+        "Title": "The Mystery of the Phantom Island",
+        "Text": "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island. She and her friend Jason had been planning this trip for months and it was finally happening. They stepped off the boat onto the island and immediately felt a sense of unease. There was something about this place that didn't feel right. As they began to explore, they quickly realized that there were no other people on the island. It was eerily quiet and seemed like it was frozen in time. They found an old abandoned village with houses that looked like they hadn't been lived in for years. As they walked through one of the houses, Leslie felt something watching her from outside. When she looked out, she saw a figure shrouded in black standing in the shadows just beyond where she could see clearly.\"Come out!\" She yelled but there was no response except for leaves rustling in the wind.\"This place is giving me goosebumps,\" Jason said.\"Yeah, let's go back to the boat; I think we've seen enough,\" Leslie replied nervously.\"\nAs soon as they turned to leave, they heard a voice behind them say \"It's not safe here.\"\"Who are you?\" Jason asked as he spun around.",
+        "IncrementalData": {
+            "sentences": [
+                "\"I can't believe we're finally here,\" Leslie said as the boat pulled up to the dock of Phantom Island.",
+                "She and her friend Jason had been planning this trip for months and it was finally happening.",
+                "They stepped off the boat onto the island and immediately felt a sense of unease.",
+                "There was something about this place that didn't feel right.",
+                "As they began to explore, they quickly realized that there were no other people on the island.",
+                "It was eerily quiet and seemed like it was frozen in time.",
+                "They found an old abandoned village with houses that looked like they hadn't been lived in for years.",
+                "As they walked through one of the houses, Leslie felt something watching her from outside.",
+                "As soon as they turned to leave, they heard a voice behind them say \"It's not safe here.\"\"Who are you?\" Jason asked as he spun around."
+            ],
+            "num_sentences": 9,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 3.0
+            },
+            "consensus_score": 4
+        }
+    },
+    "83": {
+        "StoryID": 83,
+        "Title": "The Witch of the Dark Woods",
+        "Text": "Deep in the forest there lives a Witch. She is a cruel woman who takes pleasure in torturing animals and children. If you anger her, she will curse you with her magic. The villagers live in fear of her and do their best to avoid her wrath. \nOne day, a young girl named Hansel and his sister Gretel stumble into the Witch's domain while they are playing hide-and-seek. The Witch captures them both and puts them into cages. She decides to fatten them up so she can eat them later. Everyday the Witch brings Hansel and Gretel food, but little by little she also cast spells on them so they cannot escape or fight back when the time comes for their death.",
+        "IncrementalData": {
+            "sentences": [
+                "Deep in the forest there lives a Witch.",
+                "She is a cruel woman who takes pleasure in torturing animals and children.",
+                "If you anger her, she will curse you with her magic.",
+                "The villagers live in fear of her and do their best to avoid her wrath.",
+                "One day, a young girl named Hansel and his sister Gretel stumble into the Witch's domain while they are playing hide-and-seek.",
+                "The Witch captures them both and puts them into cages.",
+                "She decides to fatten them up so she can eat them later.",
+                "Everyday the Witch brings Hansel and Gretel food, but little by little she also cast spells on them so they cannot escape or fight back when the time comes for their death."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 4.0,
+                "annot1": 3.0,
+                "annot2": 3.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "108": {
+        "StoryID": 108,
+        "Title": "The Science of Climate Chang",
+        "Text": "The science of climate change is a very complex and controversial topic.Climate change is the long-term alteration of temperature and typical weather patterns in a place. Climate change could refer to a particular location or the planet as a whole. It is also about the home we build and how much love and care we inhibit in it. Climate Change has been connected with damaging weather events such as more frequent and more intense hurricanes, floods, downpours, and winter storms. Together with expanding ocean waters due to rising temperatures melting polar ice caps, the resulting rise in sea level has begun to damage coastlines as a result of increased flooding and erosion.",
+        "IncrementalData": {
+            "sentences": [
+                "The science of climate change is a very complex and controversial topic.Climate change is the long-term alteration of temperature and typical weather patterns in a place.",
+                "Climate change could refer to a particular location or the planet as a whole.",
+                "It is also about the home we build and how much love and care we inhibit in it.",
+                "Climate Change has been connected with damaging weather events such as more frequent and more intense hurricanes, floods, downpours, and winter storms.",
+                "Together with expanding ocean waters due to rising temperatures melting polar ice caps, the resulting rise in sea level has begun to damage coastlines as a result of increased flooding and erosion."
+            ],
+            "num_sentences": 5,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 4,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        1
+                    ]
+                },
+                "annot1": {
+                    "2": [
+                        3,
+                        6,
+                        7
+                    ]
+                },
+                "annot2": {
+                    "2": [
+                        3
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0,
+                "annot3": 4.0,
+                "annot4": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "130": {
+        "StoryID": 130,
+        "Title": "Overcoming shortcomings",
+        "Text": "It was a hot, sunny day and I had just finished school. I started to head home when I saw someone standing behind me on the curb. It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests. He caught up to me quickly and asked if everything was okay.\nI told him yeah, nothing wrong. We continued talking until he grabbed onto my arm something fierce looking like it would snap his neck. Terrified yet peaceful at the same time, in some way this definitely felt familiar-despite thinking of it for years Psychiatrist's warning about strangers coming after you intermittently for no reason usually involving some dark gift or bargain appealing only until you succumb installssively (This particular boy didn't have either). Just as his grip solidified around my sleeve something hit me across the face!",
+        "IncrementalData": {
+            "sentences": [
+                "It was a hot, sunny day and I had just finished school.",
+                "I started to head home when I saw someone standing behind me on the curb.",
+                "It was my acquaintance from before, the guy that I always text and talk with on the phone but never go out with because we have different interests.",
+                "He caught up to me quickly and asked if everything was okay.",
+                "I told him yeah, nothing wrong.",
+                "We continued talking until he grabbed onto my arm something fierce looking like it would snap his neck.",
+                "Terrified yet peaceful at the same time, in some way this definitely felt familiar-despite thinking of it for years Psychiatrist's warning about strangers coming after you intermittently for no reason usually involving some dark gift or bargain appealing only until you succumb installssively (This particular boy didn't have either).",
+                "Just as his grip solidified around my sleeve something hit me across the face!"
+            ],
+            "num_sentences": 8,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "6": [
+                        1
+                    ]
+                },
+                "annot1": {
+                    "6": [
+                        1,
+                        3
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 1.0,
+                "annot2": 4.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "137": {
+        "StoryID": 137,
+        "Title": "The Unforgettable Journey",
+        "Text": "The Unforgettable Journey was a tale of two travelers who set out on a journey to find the fabled city of gold. After weeks of travel, they finally came across the city and were amazed by its beauty. They spent months exploring every nook and cranny, learning about the culture and customs, before finally setting off on their return journey. Along the way, they encountered many challenges and made many friends before finally reaching home safe and sound. The entire experience was unforgettable for both of them, and they would often look back fondly on their wonderful adventure.",
+        "IncrementalData": {
+            "sentences": [
+                "The Unforgettable Journey was a tale of two travelers who set out on a journey to find the fabled city of gold.",
+                "After weeks of travel, they finally came across the city and were amazed by its beauty.",
+                "They spent months exploring every nook and cranny, learning about the culture and customs, before finally setting off on their return journey.",
+                "Along the way, they encountered many challenges and made many friends before finally reaching home safe and sound.",
+                "The entire experience was unforgettable for both of them, and they would often look back fondly on their wonderful adventure."
+            ],
+            "num_sentences": 5,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "150": {
+        "StoryID": 150,
+        "Title": "A Story of Perseverance",
+        "Text": "Audrey was a young girl with a big heart. She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance. Her classmates would often make fun of her, but Audrey never gave up. She kept going to auditions and practicing her craft, determined to one day be a star.\nOne summer, Audrey attended a performing arts camp. She worked hard all week long and finally got the lead role in the end-of-camp show. When she took her final bow, she received thunderous applause from both parents and peers alike - something that meant more than anything to her. That experience showed her that perseverance pays off, and ever since then Audrey has been chasing after her dreams full force.",
+        "IncrementalData": {
+            "sentences": [
+                "Audrey was a young girl with a big heart.",
+                "She loved to sing and dance, despite the fact that she was always the last one chosen for any school performance.",
+                "Her classmates would often make fun of her, but Audrey never gave up.",
+                "She kept going to auditions and practicing her craft, determined to one day be a star.",
+                "One summer, Audrey attended a performing arts camp.",
+                "She worked hard all week long and finally got the lead role in the end-of-camp show.",
+                "When she took her final bow, she received thunderous applause from both parents and peers alike - something that meant more than anything to her.",
+                "That experience showed her that perseverance pays off, and ever since then Audrey has been chasing after her dreams full force."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "152": {
+        "StoryID": 152,
+        "Title": "Raising Children with Love and Care",
+        "Text": "When it comes to raising children, love and care are the two most important things. Without them, children would not be able to thrive and grow into healthy adults. As parents, we need to provide our children with plenty of love and care in order for them to develop properly. Here is a story about a family who does just that.\nThe Smith family has always been very loving and supportive of one another. They make sure to spend quality time together every day, even if it\u2019s just sitting down for dinner or watching a movie together. The parents are also very involved in their children\u2019s lives, helping with homework or attending school functions whenever they can. Because of this close relationship between parent and child, the Smith kids have always been confident and happy growing up. Finally, showing appreciation for someone else - whether it's through words or actions - lets them know that they are valued which strengthens the bond between you both.",
+        "IncrementalData": {
+            "sentences": [
+                "When it comes to raising children, love and care are the two most important things.",
+                "Without them, children would not be able to thrive and grow into healthy adults.",
+                "As parents, we need to provide our children with plenty of love and care in order for them to develop properly.",
+                "Here is a story about a family who does just that.",
+                "The Smith family has always been very loving and supportive of one another.",
+                "They make sure to spend quality time together every day, even if it\u2019s just sitting down for dinner or watching a movie together.",
+                "The parents are also very involved in their children\u2019s lives, helping with homework or attending school functions whenever they can.",
+                "Because of this close relationship between parent and child, the Smith kids have always been confident and happy growing up.",
+                "Finally, showing appreciation for someone else - whether it's through words or actions - lets them know that they are valued which strengthens the bond between you both."
+            ],
+            "num_sentences": 9,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "172": {
+        "StoryID": 172,
+        "Title": "The Unforgettable Tale of a Lost Cat",
+        "Text": "Lulu the cat loved adventuring more than anything. She would often sneak out of her home in search of new places to explore. One day, she ventured a little too far and got lost. Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from. She was starting to get really tired and hungry when she luckily ran into a kind woman who offered to help her. The woman took Lulu in and fed her before setting off with her on the long journey back to Lulu's house. Finally, after what felt like forever, they arrived at Lulu's doorstep where she was finally reunited with her relieved family. From then on, whenever Lulu went exploring, she made sure not to wander too far from home so that she wouldn't get lost again!",
+        "IncrementalData": {
+            "sentences": [
+                "Lulu the cat loved adventuring more than anything.",
+                "She would often sneak out of her home in search of new places to explore.",
+                "One day, she ventured a little too far and got lost.",
+                "Lulu wandered for days, trying to find her way back home but she just couldn't seem to remember which direction she had come from.",
+                "She was starting to get really tired and hungry when she luckily ran into a kind woman who offered to help her.",
+                "The woman took Lulu in and fed her before setting off with her on the long journey back to Lulu's house.",
+                "Finally, after what felt like forever, they arrived at Lulu's doorstep where she was finally reunited with her relieved family.",
+                "From then on, whenever Lulu went exploring, she made sure not to wander too far from home so that she wouldn't get lost again!"
+            ],
+            "num_sentences": 8,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "197": {
+        "StoryID": 197,
+        "Title": "Phoebe breaks his ankle",
+        "Text": "Phoebe was walking to the store when he broke his ankle. He was so sad because he had been looking forward to getting back on his feet stronger and more able to do what he loved. A kind woman offered him a lift into her car so that he could go get specialist advice from the doctor. Phoebe found relief in talking with the woman and felt much better knowing that blisters would not be a problem for him anymore.",
+        "IncrementalData": {
+            "sentences": [
+                "Phoebe was walking to the store when he broke his ankle.",
+                "He was so sad because he had been looking forward to getting back on his feet stronger and more able to do what he loved.",
+                "A kind woman offered him a lift into her car so that he could go get specialist advice from the doctor.",
+                "Phoebe found relief in talking with the woman and felt much better knowing that blisters would not be a problem for him anymore."
+            ],
+            "num_sentences": 4,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 1,
+                "annot1": 2
+            },
+            "reasons": {
+                "annot0": {
+                    "1": [
+                        3,
+                        4
+                    ],
+                    "3": [
+                        3
+                    ]
+                },
+                "annot1": {
+                    "1": [
+                        3,
+                        4
+                    ],
+                    "3": [
+                        3
+                    ]
+                }
+            },
+            "consensus_score": 2
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "207": {
+        "StoryID": 207,
+        "Title": "The Curse of the Demon Knight",
+        "Text": "There was once a demon knight who terrorized the land. His curse was that he could not be killed by any weapon forged by man. Many brave knights had tried to defeat him, but all had failed. One day, a young squire decided to take on the challenge himself. He went into battle armed with only a wooden sword and shield. Surprisingly, he emerged victorious! The secret to his success was that his weapons were not of this world and therefore were not affected by the demon knight's curse.",
+        "IncrementalData": {
+            "sentences": [
+                "There was once a demon knight who terrorized the land.",
+                "His curse was that he could not be killed by any weapon forged by man.",
+                "Many brave knights had tried to defeat him, but all had failed.",
+                "One day, a young squire decided to take on the challenge himself.",
+                "He went into battle armed with only a wooden sword and shield.",
+                "Surprisingly, he emerged victorious!",
+                "The secret to his success was that his weapons were not of this world and therefore were not affected by the demon knight's curse."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 4,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5,
+                "annot3": 5
+            },
+            "reasons": {
+                "annot0": {
+                    "5": [
+                        4
+                    ]
+                },
+                "annot1": {},
+                "annot2": {},
+                "annot3": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0,
+                "annot3": 2.0,
+                "annot4": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "208": {
+        "StoryID": 208,
+        "Title": "Being Patient",
+        "Text": "Sometimes people don't realize how much they have until it's too late. I was once a patient in a hospital and the doctors said that I had only days to live. When they told me, my mind couldn't take it anymore and all I wanted to do was die. My body did but at least I knew that there would be someone waiting for me whenI woke up from this unfortunate illness.",
+        "IncrementalData": {
+            "sentences": [
+                "Sometimes people don't realize how much they have until it's too late.",
+                "I was once a patient in a hospital and the doctors said that I had only days to live.",
+                "When they told me, my mind couldn't take it anymore and all I wanted to do was die.",
+                "My body did but at least I knew that there would be someone waiting for me whenI woke up from this unfortunate illness."
+            ],
+            "num_sentences": 4,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 2,
+                "annot1": 3
+            },
+            "reasons": {
+                "annot0": {
+                    "3": [
+                        4
+                    ]
+                },
+                "annot1": {
+                    "3": [
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 2
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 3.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "214": {
+        "StoryID": 214,
+        "Title": "The Piano Tuner",
+        "Text": "My dad used to play the piano all the time. It was one of his favorite things to do. But, a few years ago, his hands started hurting so much that he couldn't even play anymore. My sad and lonely father loved playing the piano just as much as I did, but he didn't want to stop doing it himself\u2014he knew how special it was to give back into our family tradition. So, we decided together that we would always keep track of all the records my dad had played on the piano over those years and make sure they were recorded forever. We gathered everything from old CDs and digital music files alike\u2014tons of them! We put every sheet music my dad ever played on or composed for onto cassette tape: Frederic Charpentier\u2019s  \"3 1/2 Hours\", Waldo Maleza's \"Reyes San Juli\u00e1n\", gigues D'orleans by bruce Williams (the best ones), Louma Pedrosa's fantasias de costillas.",
+        "IncrementalData": {
+            "sentences": [
+                "My dad used to play the piano all the time.",
+                "It was one of his favorite things to do.",
+                "But, a few years ago, his hands started hurting so much that he couldn't even play anymore.",
+                "My sad and lonely father loved playing the piano just as much as I did, but he didn't want to stop doing it himself\u2014he knew how special it was to give back into our family tradition.",
+                "So, we decided together that we would always keep track of all the records my dad had played on the piano over those years and make sure they were recorded forever.",
+                "We gathered everything from old CDs and digital music files alike\u2014tons of them!",
+                "We put every sheet music my dad ever played on or composed for onto cassette tape: Frederic Charpentier\u2019s  \"3 1/2 Hours\", Waldo Maleza's \"Reyes San Juli\u00e1n\", gigues D'orleans by bruce Williams (the best ones), Louma Pedrosa's fantasias de costillas."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 4
+        }
+    },
+    "221": {
+        "StoryID": 221,
+        "Title": "Grant PUD Status Report",
+        "Text": "Grant PUDStatusReport is a tool that provides administrators with access to various Port of Entry Data analysis capabilities. Grant PUD Status Report includes data on all ports of entry in the country and by type of inspection. Additionally, this report can provide users with up-to-date information on individual outstanding allegations against each port for which information is available.",
+        "IncrementalData": {
+            "sentences": [
+                "Grant PUDStatusReport is a tool that provides administrators with access to various Port of Entry Data analysis capabilities.",
+                "Grant PUD Status Report includes data on all ports of entry in the country and by type of inspection.",
+                "Additionally, this report can provide users with up-to-date information on individual outstanding allegations against each port for which information is available."
+            ],
+            "num_sentences": 3,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 4.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "228": {
+        "StoryID": 228,
+        "Title": "The Business of the Law: Strategies for Successful Practice",
+        "Text": "The Business of the Law: Strategies for Successful Practice is a book that has helped many lawyers achieve success in their careers. The book provides practical advice on how to start and grow a successful law practice. It covers topics such as marketing, business development, client relations, and finance. The Business of the Law is an essential guide for any lawyer who wants to build a successful career in the legal field.",
+        "IncrementalData": {
+            "sentences": [
+                "The Business of the Law: Strategies for Successful Practice is a book that has helped many lawyers achieve success in their careers.",
+                "The book provides practical advice on how to start and grow a successful law practice.",
+                "It covers topics such as marketing, business development, client relations, and finance.",
+                "The Business of the Law is an essential guide for any lawyer who wants to build a successful career in the legal field."
+            ],
+            "num_sentences": 4,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "241": {
+        "StoryID": 241,
+        "Title": "The Legal Mind: The Art of Analyzing Cases",
+        "Text": "The legal mind is a sharp instrument. It can analyze cases and break them down to their core issues. It can see through the rhetoric and find the facts. And it can use its knowledge of law to craft solutions that are both legally sound and fair.\nIn short, the legal mind is a powerful tool. But like any tool, it must be used correctly in order to achieve the desired results.\nThere are those who would misuse the legal mind, using it to twist the law for their own ends. These people are dangerous, because they know how to use this tool but do not care about justice or fairness. They only care about winning, no matter what the cost may be. Fortunately, there are also those who use their legal minds for good; these people fight against injustice and work tirelessly to ensure that everyone receives a fair shake under the law. Their efforts make our world a better place ,and we all owe them a great debt of gratitude.",
+        "IncrementalData": {
+            "sentences": [
+                "The legal mind is a sharp instrument.",
+                "It can analyze cases and break them down to their core issues.",
+                "It can see through the rhetoric and find the facts.",
+                "And it can use its knowledge of law to craft solutions that are both legally sound and fair.",
+                "In short, the legal mind is a powerful tool.",
+                "But like any tool, it must be used correctly in order to achieve the desired results.",
+                "There are those who would misuse the legal mind, using it to twist the law for their own ends.",
+                "These people are dangerous, because they know how to use this tool but do not care about justice or fairness.",
+                "They only care about winning, no matter what the cost may be.",
+                "Fortunately, there are also those who use their legal minds for good; these people fight against injustice and work tirelessly to ensure that everyone receives a fair shake under the law.",
+                "Their efforts make our world a better place ,and we all owe them a great debt of gratitude."
+            ],
+            "num_sentences": 11,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "244": {
+        "StoryID": 244,
+        "Title": "A Wonderful Day",
+        "Text": "There were two wonderful people in that day. One was the salesperson at the store, and the other was a grandma who walked her grandson to school. That's all they did for most of the day. They went about their lives doing what made them happy and adding some fun decor into their routine too.",
+        "IncrementalData": {
+            "sentences": [
+                "There were two wonderful people in that day.",
+                "One was the salesperson at the store, and the other was a grandma who walked her grandson to school.",
+                "That's all they did for most of the day.",
+                "They went about their lives doing what made them happy and adding some fun decor into their routine too."
+            ],
+            "num_sentences": 4,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        7
+                    ]
+                },
+                "annot1": {
+                    "2": [
+                        7
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 2.0,
+                "annot2": 3.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "258": {
+        "StoryID": 258,
+        "Title": "Fostering Positive Relationships",
+        "Text": "When it comes to fostering positive relationships, there is no one size fits all solution. However, there are some important things to keep in mind that can help create and maintain strong bonds with others. One of the most important aspects of developing positive relationships is communication. It is essential to be clear when communicating with others and to listen attentively when they are speaking. Additionally, being respectful and considerate of other people's feelings and needs goes a long way in creating a positive relationship dynamic. Another key element in fostering healthy relationships is sharing common interests or experiences. Spending time together doing activities that everyone enjoys can help build a stronger sense of connection between people. Finally, showing appreciation for someone else - whether it's through words or actions - lets them know that they are valued which strengthens the bond between you both.",
+        "IncrementalData": {
+            "sentences": [
+                "When it comes to fostering positive relationships, there is no one size fits all solution.",
+                "However, there are some important things to keep in mind that can help create and maintain strong bonds with others.",
+                "One of the most important aspects of developing positive relationships is communication.",
+                "It is essential to be clear when communicating with others and to listen attentively when they are speaking.",
+                "Additionally, being respectful and considerate of other people's feelings and needs goes a long way in creating a positive relationship dynamic.",
+                "Another key element in fostering healthy relationships is sharing common interests or experiences.",
+                "Spending time together doing activities that everyone enjoys can help build a stronger sense of connection between people.",
+                "Finally, showing appreciation for someone else - whether it's through words or actions - lets them know that they are valued which strengthens the bond between you both."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "259": {
+        "StoryID": 259,
+        "Title": "Uncharted Territories of Excitement",
+        "Text": "There's a whole world out there waiting to be explored and that's what gets Gary excited. He loves learning about new cultures, foods and customs. So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along.\nThe Uncharted Territories are full of surprises and Gary loves every minute of it. From the moment they set off, he is constantly asking questions and exploring everything around him. He even manages to make friends with some of the local animals.\nThe journey is tough but ultimately rewarding as Gary gets to see parts of the world that nobody else has seen before. He can't wait to come back and explore more.",
+        "IncrementalData": {
+            "sentences": [
+                "There's a whole world out there waiting to be explored and that's what gets Gary excited.",
+                "He loves learning about new cultures, foods and customs.",
+                "So when he hears about a group of people who are planning to trek through the Uncharted Territories, he knows he has to go along.",
+                "The Uncharted Territories are full of surprises and Gary loves every minute of it.",
+                "From the moment they set off, he is constantly asking questions and exploring everything around him.",
+                "He even manages to make friends with some of the local animals.",
+                "The journey is tough but ultimately rewarding as Gary gets to see parts of the world that nobody else has seen before.",
+                "He can't wait to come back and explore more."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "274": {
+        "StoryID": 274,
+        "Title": "Mark's Big Move",
+        "Text": "Mark was an ambitious young man. He had high aspirations and wanted to make a big impact in the world. So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities. When it came time for interviews, Mark proved himself with intellectual and knowledgeable. He also showed great potential as a leader - capacitor bosses often Appoint from behind the scenes due to their impressive skills in operation or management However, there were several other qualities that stood out most during mark's interview process: 4).He had EARLY reference material available on how people behaved under pressure; ) ). Plus, I think those skills will be extremely valuable when we start working section ). In short, mark was perfect for this position!",
+        "IncrementalData": {
+            "sentences": [
+                "Mark was an ambitious young man.",
+                "He had high aspirations and wanted to make a big impact in the world.",
+                "So when he found out about the job opening at his local grocery store, he leap frogged ahead of everyone else and applying became one of his top priorities.",
+                "When it came time for interviews, Mark proved himself with intellectual and knowledgeable.",
+                "He also showed great potential as a leader - capacitor bosses often Appoint from behind the scenes due to their impressive skills in operation or management However, there were several other qualities that stood out most during mark's interview process: 4).He had EARLY reference material available on how people behaved under pressure; ) ).",
+                "Plus, I think those skills will be extremely valuable when we start working section ).",
+                "In short, mark was perfect for this position!"
+            ],
+            "num_sentences": 7,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 3
+            },
+            "reasons": {
+                "annot0": {
+                    "4": [
+                        1
+                    ],
+                    "5": [
+                        1
+                    ]
+                },
+                "annot1": {
+                    "4": [
+                        1,
+                        3
+                    ],
+                    "5": [
+                        1
+                    ]
+                }
+            },
+            "consensus_score": 3
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 1.0,
+                "annot2": 2.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "275": {
+        "StoryID": 275,
+        "Title": "The Foundation for a Bright Future",
+        "Text": "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully. The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential. Over the years, they have helped countless people achieve their dreams and go on to lead successful lives.\nOne success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles. With the help of The Foundation for a Bright Future, she was able to earn a full scholarship to UCLA where she eventually graduated with honors. Today, she works as an accountant for one of the largest firms in LA and gives back to her community whenever she can. The Foundation for a Bright Future has truly made a difference in many young people's lives; giving them hope when there seemed none before. Their work continues to change lives every day and brighten futures across America!",
+        "IncrementalData": {
+            "sentences": [
+                "The Foundation for a Bright Future was founded in 1990 with the goal of helping elderly people live the rest of their lives respectfully.",
+                "The organization provides financial assistance, scholarships, and mentorship programs to help elderly people reach their full potential.",
+                "Over the years, they have helped countless people achieve their dreams and go on to lead successful lives.",
+                "One success story is that of Alexia Rodriguez, who was born into a poverty-stricken family in East Los Angeles.",
+                "With the help of The Foundation for a Bright Future, she was able to earn a full scholarship to UCLA where she eventually graduated with honors.",
+                "Today, she works as an accountant for one of the largest firms in LA and gives back to her community whenever she can.",
+                "The Foundation for a Bright Future has truly made a difference in many young people's lives; giving them hope when there seemed none before.",
+                "Their work continues to change lives every day and brighten futures across America!"
+            ],
+            "num_sentences": 8,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 3,
+                "annot1": 3,
+                "annot2": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        4
+                    ],
+                    "3": [
+                        4
+                    ],
+                    "4": [
+                        4
+                    ],
+                    "6": [
+                        4
+                    ]
+                },
+                "annot1": {
+                    "3": [
+                        4
+                    ],
+                    "6": [
+                        4
+                    ]
+                },
+                "annot2": {
+                    "3": [
+                        4
+                    ],
+                    "6": [
+                        3,
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 3
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 4
+        }
+    },
+    "283": {
+        "StoryID": 283,
+        "Title": "Firing of Nolan Richardson",
+        "Text": "I was driving home from work and decided to pull over so I could refuel. I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring. As I got closer, I saw that there was somebody inside the truck - Nolan Richardson! Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally. As soon as I pulled up, Adden started moving around the truck but then stopped when he saw me coming.\"Hi,\" Nichols said warily as he hopped out of his car.\"You're one of those 'Recovering Vietnam Veterans Only' types?\" My neighbor asked me rhetorically; fresh off his own deployment nearby several months earlier. \"Why don't you just stay put? You look family-oriented or something.\"\"No, no need for 52 paternalistic interventions here,\" quipped Jenkins while shaking my hand (paternalistically not at all). Nicholson sounded empathetic enough-\"Hey man- if dinner smells good let me know\u201d Nolan sighed Radeonically before following Irvine back into Cover Girl factory atmosphere where all your friends smoke cigarettes because they think nicotine is a KILLER inductor which degrades genes instead of additivity architecturally speaking.",
+        "IncrementalData": {
+            "sentences": [
+                "I was driving home from work and decided to pull over so I could refuel.",
+                "I noticed a Exxon truck in the middle of the road with its lights on and sirens blaring.",
+                "As I got closer, I saw that there was somebody inside the truck - Nolan Richardson!",
+                "Nolan had been involved in an accident earlier that day and it looked like he was already hurt emotionally.",
+                "As soon as I pulled up, Adden started moving around the truck but then stopped when he saw me coming.\"Hi,\" Nichols said warily as he hopped out of his car.\"You're one of those 'Recovering Vietnam Veterans Only' types?\" My neighbor asked me rhetorically; fresh off his own deployment nearby several months earlier.",
+                "\"Why don't you just stay put?",
+                "You look family-oriented or something.\"\"No, no need for 52 paternalistic interventions here,\" quipped Jenkins while shaking my hand (paternalistically not at all).",
+                "Nicholson sounded empathetic enough-\"Hey man- if dinner smells good let me know\u201d Nolan sighed Radeonically before following Irvine back into Cover Girl factory atmosphere where all your friends smoke cigarettes because they think nicotine is a KILLER inductor which degrades genes instead of additivity architecturally speaking."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 4,
+            "scores": {
+                "annot0": 1,
+                "annot1": 1,
+                "annot2": 1,
+                "annot3": 2
+            },
+            "reasons": {
+                "annot0": {
+                    "4": [
+                        1,
+                        2,
+                        3,
+                        6
+                    ],
+                    "5": [
+                        3
+                    ],
+                    "6": [
+                        2,
+                        3,
+                        6,
+                        7
+                    ],
+                    "7": [
+                        1,
+                        2,
+                        3,
+                        6,
+                        7
+                    ]
+                },
+                "annot1": {
+                    "4": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "5": [
+                        3
+                    ],
+                    "6": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "7": [
+                        1,
+                        2,
+                        3,
+                        7
+                    ]
+                },
+                "annot2": {
+                    "1": [
+                        5
+                    ],
+                    "4": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "5": [
+                        3
+                    ],
+                    "6": [
+                        2,
+                        3
+                    ],
+                    "7": [
+                        1,
+                        4,
+                        7
+                    ]
+                },
+                "annot3": {
+                    "4": [
+                        2
+                    ],
+                    "5": [
+                        3
+                    ],
+                    "6": [
+                        1,
+                        2
+                    ],
+                    "7": [
+                        1,
+                        2,
+                        3,
+                        7
+                    ]
+                }
+            },
+            "consensus_score": 1
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 2.0,
+                "annot2": 1.0,
+                "annot3": 1.0,
+                "annot4": 1.0
+            },
+            "consensus_score": 1
+        }
+    },
+    "294": {
+        "StoryID": 294,
+        "Title": "The Night of the White Wolf",
+        "Text": "The night of the white wolf was a sacred time for the Native Americans. It was when they would howl at the moon and honor their ancestors. The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed. Every year, on the night of the full moon in October, tribes from all over America would gather to howl together. This tradition continued for centuries until it was eventually forgotten. But last year, on October 31st, something strange happened. In towns and cities across America, people suddenly started hearing wolves howling in the distance.",
+        "IncrementalData": {
+            "sentences": [
+                "The night of the white wolf was a sacred time for the Native Americans.",
+                "It was when they would howl at the moon and honor their ancestors.",
+                "The wolf was considered a powerful spirit animal, and it was said that if you Howled with them, your soul would be cleansed.",
+                "Every year, on the night of the full moon in October, tribes from all over America would gather to howl together.",
+                "This tradition continued for centuries until it was eventually forgotten.",
+                "But last year, on October 31st, something strange happened.",
+                "In towns and cities across America, people suddenly started hearing wolves howling in the distance."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "297": {
+        "StoryID": 297,
+        "Title": "Foolish Frank",
+        "Text": "Frank was a foolish man. He loved to gamble and he always forgot the rules. This led to lots of bad consequences for him and his family. One day, Frank lost a lot of money in a bet with an old friend. When Frank found out, he became very sad because now all his money was gone along with the friendship that they had shared before.",
+        "IncrementalData": {
+            "sentences": [
+                "Frank was a foolish man.",
+                "He loved to gamble and he always forgot the rules.",
+                "This led to lots of bad consequences for him and his family.",
+                "One day, Frank lost a lot of money in a bet with an old friend.",
+                "When Frank found out, he became very sad because now all his money was gone along with the friendship that they had shared before."
+            ],
+            "num_sentences": 5,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "303": {
+        "StoryID": 303,
+        "Title": "The Friendship of a Dog and a Cat",
+        "Text": "Sam the cat loved nothing more than a good nap in the sun. But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face. He opened his eyes to see a big black Labrador retriever staring at him expectantly.\n\"Shoo!\" Sam said, waving a paw at the dog. \"I don't want to play.\"\nBut the dog just sat down and looked at him with soulful eyes, as if to say 'please be my friend.' Against his better judgment, Sam found himself softening towards the big puppy. After all, it wasn't entirely its fault that it was so born goofy looking. And before long, they were best friends who loved playing together \u2013 even if their games sometimes ended with Sam getting covered in drool.",
+        "IncrementalData": {
+            "sentences": [
+                "Sam the cat loved nothing more than a good nap in the sun.",
+                "But one day, while he was taking his usual afternoon snooze, he was rudely awaken by a wet nose nudging him in the face.",
+                "He opened his eyes to see a big black Labrador retriever staring at him expectantly.",
+                "\"Shoo!\" Sam said, waving a paw at the dog.",
+                "But the dog just sat down and looked at him with soulful eyes, as if to say 'please be my friend.' Against his better judgment, Sam found himself softening towards the big puppy.",
+                "After all, it wasn't entirely its fault that it was so born goofy looking.",
+                "And before long, they were best friends who loved playing together \u2013 even if their games sometimes ended with Sam getting covered in drool."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "324": {
+        "StoryID": 324,
+        "Title": "The Secret Past",
+        "Text": "Kate was always a bright, happy person. She loved life and made the best of every situation. However, Kate had a secret past that she never talked about. When she was younger, her parents were killed in a car accident. Kate was left alone in the world with no one to turn to. She did whatever it took to survive on the streets until she finally found her way into foster care. From then on, Kate tried to put her past behind her and live for the present and future, but it wasn't always easy. Sometimes when she was feeling down or lost, she would think about her parents and how much they loved her. That would give her the strength to carry on knowing that they were watching over her from heaven.",
+        "IncrementalData": {
+            "sentences": [
+                "Kate was always a bright, happy person.",
+                "She loved life and made the best of every situation.",
+                "However, Kate had a secret past that she never talked about.",
+                "When she was younger, her parents were killed in a car accident.",
+                "Kate was left alone in the world with no one to turn to.",
+                "She did whatever it took to survive on the streets until she finally found her way into foster care.",
+                "From then on, Kate tried to put her past behind her and live for the present and future, but it wasn't always easy.",
+                "Sometimes when she was feeling down or lost, she would think about her parents and how much they loved her.",
+                "That would give her the strength to carry on knowing that they were watching over her from heaven."
+            ],
+            "num_sentences": 9,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "327": {
+        "StoryID": 327,
+        "Title": "The War of Resistance: The French Resistance in World War II",
+        "Text": "It was 1940 and the world was at war. France had been overrun by the Nazis and life for the French people was very difficult. Many people were Collaborators, working with the Nazis to make things easier for themselves. But there were also those who resisted Nazi rule. They became known as the Resistance.\nThe French Resistance did everything they could to sabotage Nazi plans and help Allied forces. They printed anti-Nazi leaflets, blew up trains and bridges, attacked German soldiers, and helped Jews escape from concentration camps. It was dangerous work \u2013 many Resistants were captured or killed by the Gestapo (the Nazi secret police). But they continued to fight back until liberation came in 1944.",
+        "IncrementalData": {
+            "sentences": [
+                "It was 1940 and the world was at war.",
+                "France had been overrun by the Nazis and life for the French people was very difficult.",
+                "Many people were Collaborators, working with the Nazis to make things easier for themselves.",
+                "But there were also those who resisted Nazi rule.",
+                "They became known as the Resistance.",
+                "The French Resistance did everything they could to sabotage Nazi plans and help Allied forces.",
+                "They printed anti-Nazi leaflets, blew up trains and bridges, attacked German soldiers, and helped Jews escape from concentration camps.",
+                "It was dangerous work \u2013 many Resistants were captured or killed by the Gestapo (the Nazi secret police).",
+                "But they continued to fight back until liberation came in 1944."
+            ],
+            "num_sentences": 9,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "334": {
+        "StoryID": 334,
+        "Title": "Hila is a nice girl",
+        "Text": "Hila was always a bright girl, but she never really felt like she fit in. She was always a bit too tall, a bit too skinny, and her nose was a bit too big. But she had a kind heart and a quick wit, and she was always able to make her friends laugh. One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering. As she got closer, she could hear them laughing and pointing at her. Hila's heart sank as she realized they were making fun of her. But she didn't let it get to her. She knew she was different, but she also knew that was what made her special. And she was determined not to let the mean girls get to her. So she walked tall and held her head up high, and she never let them see her cry.",
+        "IncrementalData": {
+            "sentences": [
+                "Hila was always a bright girl, but she never really felt like she fit in.",
+                "She was always a bit too tall, a bit too skinny, and her nose was a bit too big.",
+                "But she had a kind heart and a quick wit, and she was always able to make her friends laugh.",
+                "One day, when Hila was walking home from school, she saw a group of girls her age huddled together, whispering.",
+                "As she got closer, she could hear them laughing and pointing at her.",
+                "Hila's heart sank as she realized they were making fun of her.",
+                "But she didn't let it get to her.",
+                "She knew she was different, but she also knew that was what made her special.",
+                "And she was determined not to let the mean girls get to her.",
+                "So she walked tall and held her head up high, and she never let them see her cry."
+            ],
+            "num_sentences": 10,
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5,
+                "annot3": 5,
+                "annot4": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {},
+                "annot3": {},
+                "annot4": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 4.0,
+                "annot2": 5.0,
+                "annot3": 5.0,
+                "annot4": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "340": {
+        "StoryID": 340,
+        "Title": "Eggs From Above",
+        "Text": "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience! We offer a variety of different types of eggs suited to any dietary restriction or preference. Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs. Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings).\nThere's something about these fresh-made eggs that makes you feel like you're eating something special - no two were alike! Whether it was the way they tasted when I first tried them or how amazing they looked on my plate - every one at Eggs From Above knows their stuff. And don't forget their thick buttermilk armour sauce - just right amount topped off by a perfectly fried golden yolk. OH MY GODS.",
+        "IncrementalData": {
+            "sentences": [
+                "Eggs from Above, a restaurant that specializes in delicious eggs and protein goodness, is the perfect place for anyone looking for some unique and fantastic egg experience!",
+                "We offer a variety of different types of eggs suited to any dietary restriction or preference.",
+                "Our geons can order anything from ham-hocks to Oriental chicken breasts while omnivores can choose Between one and two GGs which are our cooked, glazedInside out pastorals style eggs.",
+                "Finally vegetarians or vegans may enjoy our hummus buns with avocado guise (or any other number of toppings).",
+                "There's something about these fresh-made eggs that makes you feel like you're eating something special - no two were alike!",
+                "Whether it was the way they tasted when I first tried them or how amazing they looked on my plate - every one at Eggs From Above knows their stuff.",
+                "And don't forget their thick buttermilk armour sauce - just right amount topped off by a perfectly fried golden yolk.",
+                "OH MY GODS."
+            ],
+            "num_sentences": 8,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        1
+                    ]
+                },
+                "annot1": {
+                    "2": [
+                        1
+                    ]
+                }
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 2.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "343": {
+        "StoryID": 343,
+        "Title": "Dead Heat",
+        "Text": "It was the last race of the season and everything was on the line. The two fastest horses in the world were pitted against each other in a desperate attempt to win. They both walked as slowly as they could in order to run, but it wasn\u2019t enough. They had to be mentally strong to walk all 42km to finish the race.",
+        "IncrementalData": {
+            "sentences": [
+                "It was the last race of the season and everything was on the line.",
+                "The two fastest horses in the world were pitted against each other in a desperate attempt to win.",
+                "They both walked as slowly as they could in order to run, but it wasn\u2019t enough.",
+                "They had to be mentally strong to walk all 42km to finish the race."
+            ],
+            "num_sentences": 4,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 3,
+                "annot1": 4,
+                "annot2": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        1
+                    ],
+                    "3": [
+                        5
+                    ]
+                },
+                "annot1": {
+                    "2": [
+                        1
+                    ],
+                    "3": [
+                        3,
+                        5
+                    ]
+                },
+                "annot2": {
+                    "2": [
+                        1
+                    ],
+                    "3": [
+                        5
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 1.0,
+                "annot2": 1.0
+            },
+            "consensus_score": 1
+        }
+    },
+    "360": {
+        "StoryID": 360,
+        "Title": "Experiences and Reflections",
+        "Text": "I remember the first time I ever went to the beach. I was six years old and my family had gone on vacation to Florida. As soon as we arrived, I ran straight for the shoreline. The sand was warm and soft, and the waves were crashing against the shore. I loved it.\nSince then, I have been to many different beaches all around the world but that first experience will always stay with me. Every time I see a beach now, it brings back hard and hurtful memories.",
+        "IncrementalData": {
+            "sentences": [
+                "I remember the first time I ever went to the beach.",
+                "I was six years old and my family had gone on vacation to Florida.",
+                "As soon as we arrived, I ran straight for the shoreline.",
+                "The sand was warm and soft, and the waves were crashing against the shore.",
+                "I loved it.",
+                "Since then, I have been to many different beaches all around the world but that first experience will always stay with me.",
+                "Every time I see a beach now, it brings back hard and hurtful memories."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "6": [
+                        4
+                    ]
+                },
+                "annot1": {
+                    "6": [
+                        3,
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 4.0,
+                "annot1": 4.0,
+                "annot2": 2.0,
+                "annot3": 1.0,
+                "annot4": 2.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "364": {
+        "StoryID": 364,
+        "Title": "Raising a Family",
+        "Text": "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever. I was suddenly responsible for another human being, and I couldn't help but feel a little terrified. But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her. And so began our journey as a family.\nThroughout the years there have been ups and downs, but we've always stuck together through it all. We've laughed together, cried together, and everything in between. My girls are now grown women with families of their own, but they will always be my babies no matter how old they get.",
+        "IncrementalData": {
+            "sentences": [
+                "The first time I ever held my baby girl in my arms, I knew that my life was going to change forever.",
+                "I was suddenly responsible for another human being, and I couldn't help but feel a little terrified.",
+                "But as I looked down at her sweet face, all of those fears melted away and I knew that no matter what happened, I would always love her and protect her.",
+                "And so began our journey as a family.",
+                "Throughout the years there have been ups and downs, but we've always stuck together through it all.",
+                "We've laughed together, cried together, and everything in between.",
+                "My girls are now grown women with families of their own, but they will always be my babies no matter how old they get."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {
+                    "6": [
+                        4
+                    ]
+                },
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "370": {
+        "StoryID": 370,
+        "Title": "Family Vacation",
+        "Text": "My parents always have a family vacation every year. We usually go to some island or another and spend time with them. This year they decided to take a trip to the Bahamas! It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while. I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too! I did some research online ahead of time and found out about all the activities that were available there, too. So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes). Sunday night marked the beginning of our trip which would also include one day in Nassau just. We WENT. The best part about this trip? The weather- everyone said it looked beautiful but by Monday afternoon Palm Beach had turned into ankle-deep rainforest, literally everything either dried off during their stay or got moldy no matter how long you tried Putting everything back together is going as planned but still felt unwelcome.",
+        "IncrementalData": {
+            "sentences": [
+                "My parents always have a family vacation every year.",
+                "We usually go to some island or another and spend time with them.",
+                "This year they decided to take a trip to the Bahamas!",
+                "It was going to be their third visit there since we were born, so it was definitely something that they had been wanting to do for a while.",
+                "I hadn't really gone on any of my own trips with them before so this was definitely an opportunity for me too!",
+                "I did some research online ahead of time and found out about all the activities that were available there, too.",
+                "So when we woke up Wednesday morning, we knew exactly what Tupperware containers (orators) 1 families please could cram into our seats on Air Canada for $699 each way including taxes).",
+                "Sunday night marked the beginning of our trip which would also include one day in Nassau just.",
+                "We WENT.",
+                "The best part about this trip?",
+                "The weather- everyone said it looked beautiful but by Monday afternoon Palm Beach had turned into ankle-deep rainforest, literally everything either dried off during their stay or got moldy no matter how long you tried Putting everything back together is going as planned but still felt unwelcome."
+            ],
+            "num_sentences": 11,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 3
+            },
+            "reasons": {
+                "annot0": {
+                    "6": [
+                        1
+                    ],
+                    "10": [
+                        4
+                    ]
+                },
+                "annot1": {
+                    "6": [
+                        1
+                    ],
+                    "7": [
+                        1
+                    ],
+                    "10": [
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 1.0,
+                "annot2": 3.0
+            },
+            "consensus_score": 1
+        }
+    },
+    "379": {
+        "StoryID": 379,
+        "Title": "UBS Trade Products",
+        "Text": "One day, a new company named UBS Trade Products was founded with the goal of making it easier for banks and other financial institutions to trade products. New processes were established so that buyers and sellers could communicate quickly and easily, which made trading goods quicker, more efficient and cost-effective. The company even created a shopping cart system so that customers could easily find what they were looking for.",
+        "IncrementalData": {
+            "sentences": [
+                "One day, a new company named UBS Trade Products was founded with the goal of making it easier for banks and other financial institutions to trade products.",
+                "New processes were established so that buyers and sellers could communicate quickly and easily, which made trading goods quicker, more efficient and cost-effective.",
+                "The company even created a shopping cart system so that customers could easily find what they were looking for."
+            ],
+            "num_sentences": 3,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0,
+                "annot2": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "385": {
+        "StoryID": 385,
+        "Title": "The Phantom of the Valley",
+        "Text": "There was once a phantom who haunted the valley. He would always appear at night, and no one knew what he looked like. Some people said he was a monster, while others said he was just a man in a cloak. No one knew for sure.\nOne night, Tom decided to venture into the valley to see if they could catch a glimpse of the phantom. He suffered from phantom pain that no physician could ever find. But braved this pain to go to work. ",
+        "IncrementalData": {
+            "sentences": [
+                "There was once a phantom who haunted the valley.",
+                "He would always appear at night, and no one knew what he looked like.",
+                "Some people said he was a monster, while others said he was just a man in a cloak.",
+                "No one knew for sure.",
+                "One night, Tom decided to venture into the valley to see if they could catch a glimpse of the phantom.",
+                "He suffered from phantom pain that no physician could ever find.",
+                "But braved this pain to go to work."
+            ],
+            "num_sentences": 7,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 3
+            },
+            "reasons": {
+                "annot0": {
+                    "5": [
+                        3,
+                        4,
+                        7
+                    ],
+                    "6": [
+                        7
+                    ]
+                },
+                "annot1": {
+                    "4": [
+                        2
+                    ],
+                    "5": [
+                        3,
+                        4,
+                        7
+                    ],
+                    "6": [
+                        7
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "421": {
+        "StoryID": 421,
+        "Title": "The Road to Redemption",
+        "Text": "The Road to Redemption is a heartwarming story of hope and second chances. After years of struggling with addiction, John finally decides to get clean. He knows it won't be easy, but he's ready to do whatever it takes to turn his life around. With the support of his loved ones, John enters rehab and starts on the long road to recovery. It's a difficult journey, but John is determined to make it all the way back to rock bottom. Ultimately, he fails his recovery and dies from an overdose. ",
+        "IncrementalData": {
+            "sentences": [
+                "The Road to Redemption is a heartwarming story of hope and second chances.",
+                "After years of struggling with addiction, John finally decides to get clean.",
+                "He knows it won't be easy, but he's ready to do whatever it takes to turn his life around.",
+                "With the support of his loved ones, John enters rehab and starts on the long road to recovery.",
+                "It's a difficult journey, but John is determined to make it all the way back to rock bottom.",
+                "Ultimately, he fails his recovery and dies from an overdose."
+            ],
+            "num_sentences": 6,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "4": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                "annot1": {
+                    "4": [
+                        1,
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 3.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "428": {
+        "StoryID": 428,
+        "Title": "Someday I'll come Home",
+        "Text": "Once upon a time, a woman loved her home so much that she decided to stay there forever. Her husband couldn't help but envy her and wished he could see hers again. one day, she will come home to find him sick in bed with something Philadelphia's medical record can assist us in diagnosing- sepsis!",
+        "IncrementalData": {
+            "sentences": [
+                "Once upon a time, a woman loved her home so much that she decided to stay there forever.",
+                "Her husband couldn't help but envy her and wished he could see hers again.",
+                "one day, she will come home to find him sick in bed with something Philadelphia's medical record can assist us in diagnosing- sepsis!"
+            ],
+            "num_sentences": 3,
+            "num_annotators": 4,
+            "scores": {
+                "annot0": 1,
+                "annot1": 2,
+                "annot2": 2,
+                "annot3": 1
+            },
+            "reasons": {
+                "annot0": {
+                    "1": [
+                        1,
+                        4
+                    ],
+                    "2": [
+                        1,
+                        4
+                    ]
+                },
+                "annot1": {
+                    "1": [
+                        3,
+                        4
+                    ],
+                    "2": [
+                        3,
+                        4
+                    ]
+                },
+                "annot2": {
+                    "1": [
+                        1,
+                        4
+                    ],
+                    "2": [
+                        1,
+                        4,
+                        6,
+                        7
+                    ]
+                },
+                "annot3": {
+                    "1": [
+                        1,
+                        3,
+                        4
+                    ],
+                    "2": [
+                        1,
+                        3,
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 1
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 1.0,
+                "annot1": 4.0,
+                "annot2": 1.0,
+                "annot3": 1.0,
+                "annot4": 1.0
+            },
+            "consensus_score": 1
+        }
+    },
+    "434": {
+        "StoryID": 434,
+        "Title": "The Journey of the Last Hero",
+        "Text": "The world was ending. The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky. The last hero knew that it was time to end his journey. He had fought for so long and accomplished so much, but now there was nothing left to fight for. He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate. He walked for days, weeks, months perhaps \u2013 he lost track of time in the endless night. His only companions were his memories of all those he\u2019d loved and lost along the way. Finally he came to a great door made of ebony wood with silver hinges; behind it lay utter blackness. The hero knew this was death\u2019s door \u2013 and yet somehow he also knew that beyond it lay final peace and rest from his weary travels at last. He hesitated only briefly before opening the door wide.",
+        "IncrementalData": {
+            "sentences": [
+                "The world was ending.",
+                "The sun had grown red and cold, the stars had vanished, and the moon was nothing but a black void in the sky.",
+                "The last hero knew that it was time to end his journey.",
+                "He had fought for so long and accomplished so much, but now there was nothing left to fight for.",
+                "He prayed to the gods one last time, thanked them for their guidance, and then set out into the darkness to meet his fate.",
+                "He walked for days, weeks, months perhaps \u2013 he lost track of time in the endless night.",
+                "His only companions were his memories of all those he\u2019d loved and lost along the way.",
+                "Finally he came to a great door made of ebony wood with silver hinges; behind it lay utter blackness.",
+                "The hero knew this was death\u2019s door \u2013 and yet somehow he also knew that beyond it lay final peace and rest from his weary travels at last.",
+                "He hesitated only briefly before opening the door wide."
+            ],
+            "num_sentences": 10,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "436": {
+        "StoryID": 436,
+        "Title": "voting in elections",
+        "Text": "Election day finally came. All the people who usually Vote at home had gone to vote this year, but there was one last elephant in the room-Voters Who Were Absent. Many of these voters were likely abroad on holiday or couldn't get out to cast their ballot, leaving their voting machines behind.  In an effort to make up for lost time, most local election officials set up poll locations throughout the city and offered voting continued after school currently there is no formal way of granting absentee votes (though variations exist), so many rvoters simply skipped town without picking up a balloting cartridge.",
+        "IncrementalData": {
+            "sentences": [
+                "Election day finally came.",
+                "All the people who usually Vote at home had gone to vote this year, but there was one last elephant in the room-Voters Who Were Absent.",
+                "Many of these voters were likely abroad on holiday or couldn't get out to cast their ballot, leaving their voting machines behind.",
+                "In an effort to make up for lost time, most local election officials set up poll locations throughout the city and offered voting continued after school currently there is no formal way of granting absentee votes (though variations exist), so many rvoters simply skipped town without picking up a balloting cartridge."
+            ],
+            "num_sentences": 4,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 2,
+                "annot1": 1,
+                "annot2": 2
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        1,
+                        5
+                    ],
+                    "3": [
+                        5
+                    ]
+                },
+                "annot1": {
+                    "1": [
+                        1
+                    ],
+                    "2": [
+                        1,
+                        5
+                    ],
+                    "3": [
+                        5
+                    ]
+                },
+                "annot2": {
+                    "2": [
+                        1,
+                        5
+                    ],
+                    "3": [
+                        5
+                    ]
+                }
+            },
+            "consensus_score": 2
+        },
+        "HolisticData": {
+            "num_annotators": 5,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 3.0,
+                "annot2": 1.0,
+                "annot3": 1.0,
+                "annot4": 1.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "438": {
+        "StoryID": 438,
+        "Title": "The Battle for the Sacred Jewel",
+        "Text": "The Sacred Jewel is a powerful artifact that has been fought over for centuries. It is said to grant its holder great power and wealth. The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember. There are many factions vying for control of the jewel, and the stakes are high. Lives have been lost, whole armies have been destroyed, but the battle continues.\nOne day, a young warrior decides to take up arms and join the fight. He knows it will be dangerous, but he feels drawn to the jewel's power. He trains hard and quickly becomes one of the most skilled fighters in his faction. When he finally enters into combat against his enemies, he quickly realizes why this conflict is so important - because whoever controls the Sacred Jewel controls fate itself.",
+        "IncrementalData": {
+            "sentences": [
+                "The Sacred Jewel is a powerful artifact that has been fought over for centuries.",
+                "It is said to grant its holder great power and wealth.",
+                "The battle for the Sacred Jewel is an epic conflict that has raged on for as long as anyone can remember.",
+                "There are many factions vying for control of the jewel, and the stakes are high.",
+                "Lives have been lost, whole armies have been destroyed, but the battle continues.",
+                "One day, a young warrior decides to take up arms and join the fight.",
+                "He knows it will be dangerous, but he feels drawn to the jewel's power.",
+                "He trains hard and quickly becomes one of the most skilled fighters in his faction.",
+                "When he finally enters into combat against his enemies, he quickly realizes why this conflict is so important - because whoever controls the Sacred Jewel controls fate itself."
+            ],
+            "num_sentences": 9,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "448": {
+        "StoryID": 448,
+        "Title": "The Universe of Cosmolog",
+        "Text": "As a child, I was fascinated by the stars. I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw. In school, I learned about cosmology\u2014the study of the body. And suddenly, all those dots in the sky made so much more sense to me.\nThe universe is small\u2014so small that it\u2019s impossible for us to truly comprehend its size. And yet, despite its vastness, it is also incredibly orderly and predictable. That\u2019s because cosmologists have spent centuries studying how everything in the universe works together.\nWe now know that our galaxy\u2014the Milky Way\u2014is just one of hundreds of billions of galaxies in existence. Each galaxy contains millions or even billions of stars like our sun; our own solar system is just one tiny part of the Milky Way Galaxy. Cosmologists have also discovered that there are laws that govern how everything in the universe behaves; these laws are what allow us to make predictions about things like eclipses and comets passing by Earth.",
+        "IncrementalData": {
+            "sentences": [
+                "As a child, I was fascinated by the stars.",
+                "I would spend hours outside looking up at the night sky, trying to make sense of the patterns I saw.",
+                "In school, I learned about cosmology\u2014the study of the body.",
+                "And suddenly, all those dots in the sky made so much more sense to me.",
+                "The universe is small\u2014so small that it\u2019s impossible for us to truly comprehend its size.",
+                "And yet, despite its vastness, it is also incredibly orderly and predictable.",
+                "That\u2019s because cosmologists have spent centuries studying how everything in the universe works together.",
+                "We now know that our galaxy\u2014the Milky Way\u2014is just one of hundreds of billions of galaxies in existence.",
+                "Each galaxy contains millions or even billions of stars like our sun; our own solar system is just one tiny part of the Milky Way Galaxy.",
+                "Cosmologists have also discovered that there are laws that govern how everything in the universe behaves; these laws are what allow us to make predictions about things like eclipses and comets passing by Earth."
+            ],
+            "num_sentences": 10,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 4,
+                "annot1": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "2": [
+                        5
+                    ],
+                    "4": [
+                        1,
+                        5
+                    ]
+                },
+                "annot1": {
+                    "2": [
+                        5
+                    ],
+                    "4": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    },
+    "449": {
+        "StoryID": 449,
+        "Title": "The Fascinating World of Immunology",
+        "Text": "Alice is a curious girl who loves to learn about the world around her. So when she discovered the fascinating world of immunology, she was eager to learn more. She started by learning about the different types of immune cells and how they work together to protect our bodies from disease. Then she learned about how our immune system helps us fight off infections and keep us healthy. Finally, Alice learned about some of the diseases that can occur when our immune system isn't working properly. After spending hours reading and researching, Alice got dismissive about what immunology and all it has to offer.",
+        "IncrementalData": {
+            "sentences": [
+                "Alice is a curious girl who loves to learn about the world around her.",
+                "So when she discovered the fascinating world of immunology, she was eager to learn more.",
+                "She started by learning about the different types of immune cells and how they work together to protect our bodies from disease.",
+                "Then she learned about how our immune system helps us fight off infections and keep us healthy.",
+                "Finally, Alice learned about some of the diseases that can occur when our immune system isn't working properly.",
+                "After spending hours reading and researching, Alice got dismissive about what immunology and all it has to offer."
+            ],
+            "num_sentences": 6,
+            "num_annotators": 4,
+            "scores": {
+                "annot0": 3,
+                "annot1": 3,
+                "annot2": 5,
+                "annot3": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "5": [
+                        1,
+                        4
+                    ]
+                },
+                "annot1": {
+                    "5": [
+                        3,
+                        4
+                    ]
+                },
+                "annot2": {
+                    "5": [
+                        3,
+                        4
+                    ]
+                },
+                "annot3": {
+                    "5": [
+                        1,
+                        4
+                    ]
+                }
+            },
+            "consensus_score": 4
+        },
+        "HolisticData": {
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 2.0,
+                "annot1": 2.0,
+                "annot2": 2.0
+            },
+            "consensus_score": 2
+        }
+    },
+    "464": {
+        "StoryID": 464,
+        "Title": "Camelback Ranch",
+        "Text": "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations. It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs. The farm also contains many sheds and barns dedicated to the care of their animals. The ranch was originally founded by Hardy Chandler who began the business in 1914. In his time it became one of Arizona's most important cotton-producing communities from its production on site alone totaling eighty million pounds ils worth of goods each year. Over time other businesses have cropped up onsite such as a convenience store and car shop but camel crops remain an essential part of the ranch\u2019s economy today as they provide milk for their cow herd, hay for their horses and shoes (and sometimes even arc spectacles) to aid with sightseeing tours inside their enclosures!",
+        "IncrementalData": {
+            "sentences": [
+                "The Camelback Ranch is a large, peaceful ranch that has been in the family for generations.",
+                "It consists of several thousand acres of land and includes four enclosures for camels, horses, cows and pigs.",
+                "The farm also contains many sheds and barns dedicated to the care of their animals.",
+                "The ranch was originally founded by Hardy Chandler who began the business in 1914.",
+                "In his time it became one of Arizona's most important cotton-producing communities from its production on site alone totaling eighty million pounds ils worth of goods each year.",
+                "Over time other businesses have cropped up onsite such as a convenience store and car shop but camel crops remain an essential part of the ranch\u2019s economy today as they provide milk for their cow herd, hay for their horses and shoes (and sometimes even arc spectacles) to aid with sightseeing tours inside their enclosures!"
+            ],
+            "num_sentences": 6,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 4,
+                "annot1": 2,
+                "annot2": 4
+            },
+            "reasons": {
+                "annot0": {
+                    "4": [
+                        4
+                    ],
+                    "5": [
+                        1,
+                        5
+                    ]
+                },
+                "annot1": {
+                    "4": [
+                        4
+                    ],
+                    "5": [
+                        1,
+                        4,
+                        5
+                    ]
+                },
+                "annot2": {
+                    "4": [
+                        4
+                    ],
+                    "5": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "consensus_score": 3
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "475": {
+        "StoryID": 475,
+        "Title": "setting fire",
+        "Text": "Once upon a time, a magical kingdom ruled by an evil queen boasted many beautiful star-studded palaces. One day, she ordered her Baleful Banker to start burning down the elegant residences of her subjects in order to raising money for castles and raids. Little did she know that when the countess woke up from dreaming of being Pyro clocked inside one of these luxurious homes, she vowed to kill off this cursed queen once and for all.",
+        "IncrementalData": {
+            "sentences": [
+                "Once upon a time, a magical kingdom ruled by an evil queen boasted many beautiful star-studded palaces.",
+                "One day, she ordered her Baleful Banker to start burning down the elegant residences of her subjects in order to raising money for castles and raids.",
+                "Little did she know that when the countess woke up from dreaming of being Pyro clocked inside one of these luxurious homes, she vowed to kill off this cursed queen once and for all."
+            ],
+            "num_sentences": 3,
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 1,
+                "annot1": 1
+            },
+            "reasons": {
+                "annot0": {
+                    "0": [
+                        1
+                    ],
+                    "1": [
+                        2,
+                        5
+                    ],
+                    "2": [
+                        1
+                    ]
+                },
+                "annot1": {
+                    "0": [
+                        1
+                    ],
+                    "1": [
+                        3,
+                        5
+                    ],
+                    "2": [
+                        1,
+                        2
+                    ]
+                }
+            },
+            "consensus_score": 1
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 3.0,
+                "annot1": 4.0
+            },
+            "consensus_score": 3
+        }
+    },
+    "476": {
+        "StoryID": 476,
+        "Title": "A Bird's-Eye View of the World",
+        "Text": "I enjoy sitting in my tree house and looking out at the world. I can see for miles from up here, and it's always so peaceful. It's like my own little haven away from everything. I can just sit back and watch the world go by below me. Sometimes I even feel like a bird myself, soaring high above everything else.",
+        "IncrementalData": {
+            "sentences": [
+                "I enjoy sitting in my tree house and looking out at the world.",
+                "I can see for miles from up here, and it's always so peaceful.",
+                "It's like my own little haven away from everything.",
+                "I can just sit back and watch the world go by below me.",
+                "Sometimes I even feel like a bird myself, soaring high above everything else."
+            ],
+            "num_sentences": 5,
+            "num_annotators": 3,
+            "scores": {
+                "annot0": 5,
+                "annot1": 5,
+                "annot2": 5
+            },
+            "reasons": {
+                "annot0": {},
+                "annot1": {},
+                "annot2": {}
+            },
+            "consensus_score": 5
+        },
+        "HolisticData": {
+            "num_annotators": 2,
+            "scores": {
+                "annot0": 5.0,
+                "annot1": 5.0
+            },
+            "consensus_score": 5
+        }
+    }
+}

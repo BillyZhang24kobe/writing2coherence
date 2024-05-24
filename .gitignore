@@ -1,0 +1,10 @@
+# api secrets
+api_secrets.py
+
+# system files
+__pycache__
+
+# logs
+*.log
+
+synthesize_train_gpt.ipynb

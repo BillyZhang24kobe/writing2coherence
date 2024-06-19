@@ -4,7 +4,11 @@ api_secrets.py
 # system files
 __pycache__
 
+# output files
+output/*
+
 # logs
 *.log
+wandb/*
 
 synthesize_train_gpt.ipynb

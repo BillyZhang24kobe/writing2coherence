@@ -1,0 +1,15 @@
+{
+    "max_seq_length": 512,
+    "max_train_samples": 5,
+    "max_eval_samples": 5,
+    "max_predict_samples": 5,
+    "num_labels": 4,
+    "ignore_pad_token_for_loss": true,
+    "learning_rate": 0.00002,
+    "epochs": 50,
+    "logging_steps": 100,
+    "save_steps": 100,
+    "gradient_accumulation_steps": 2, 
+    "gradient_checkpointing": true,
+    "num_beams": 5
+  }

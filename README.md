@@ -88,3 +88,28 @@ To construct DECOR, we start by creating context-sentence pairs from the essays 
 - `Rewrite`: The rewrite of the incoherent sentence so that it is now coherent with the context.
 
 Note that for coherent context-sentence pairs, the reason types and rewrites are marked empty.
+
+## Environment settings
+
+## Supervised Fine-tuning pipelines
+
+## Evaluating on DECOR
+
+## Citation
+We highly appriciate your interests in our work. If you find DECOR 📔 helpful, please consider citing our paper in your work:
+
+Xuanming Zhang, Anthony Diaz, Zixun Chen, Qingyang Wu, Kun Qian, Erik Voss, Zhou Yu. [DECOR: Improving Coherence in L2 English Writing with a Novel
+Benchmark for Incoherence Detection, Reasoning, and Rewriting](https://arxiv.org/abs/2406.19650)
+
+```
+@article{zhang2024decor,
+  title={DECOR: Improving Coherence in L2 English Writing with a Novel
+Benchmark for Incoherence Detection, Reasoning, and Rewriting},
+  author={Zhang, Xuanming, and Diaz, Anthony, and Chen, Zixun, and Wu, Qingyang, and Qian Kun, and Voss, Erik, and Yu, Zhou},
+  journal={arXiv preprint arXiv:2406.19650},
+  year={2024}
+}
+```
+
+## Questions
+Please reach out to us at billyzhang@cs.columbia.edu if you have any questions in using our benchmark. If you find an issue in either the source code or dataset, please feel free to create a pull request and make contribution to the benchmark!

@@ -68,3 +68,23 @@ We release the dev and test data for each task in DECOR 📔. They can be downlo
   </tr>
 </tbody>
 </table>
+
+### DECOR data format
+
+To construct DECOR, we start by creating context-sentence pairs from the essays sampled from [TOEFL-11 corpus](https://www.ets.org/research/policy_research_reports/publications/report/2013/jrkv.html). Each data point of DECOR consists of the following columns:
+
+- `essay_id`: the id of the original essay from TOEFL-11 dataset.
+- `topic`: the topic prompt as plain text for the sampled essay. Note that in total there are 8 prompts from the dataset.
+- `context`: the context sentences as plain text, which comprises all preceding sentences up to and immediately before the current sentence in the essay.
+- `sentence`: the current sentence as plain text
+- `label`: a binary label (1 or 0) indicating (a) if the current sentence is incoherent with the context for the task of incoherence detection, or (b) if the incoherence is caused by any of the reasons (i.e. cohesion, consistency, relevance, and other) for the task of incoherence reasoning.
+- `R1`: a binary label (1 or 0) indicating if the incoherence is caused by _semantic connection_.
+- `R2`: a binary label (1 or 0) indicating if the incherence is caused by _entity reference_.
+- `R3`: a binary label (1 or 0) indicating if the incherence is caused by _discourse relation_.
+- `R4`: a binary label (1 or 0) indicating if the incherence is caused by _consistency_.
+- `R5`: a binary label (1 or 0) indicating if the incherence is caused by _contextual relevance_.
+- `R6`: a binary label (1 or 0) indicating if the incherence is caused by _tangential relevance_.
+- `R7`: a binary label (1 or 0) indicating if the incherence is caused by _other_ reasons that are not specified above.
+- `Rewrite`: The rewrite of the incoherent sentence so that it is now coherent with the context.
+
+Note that for coherent context-sentence pairs, the reason types and rewrites are marked empty.

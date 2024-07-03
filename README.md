@@ -26,23 +26,18 @@ In general, this repository offers:
 ## Downloading the DECOR benchmark 📔
 We release the dev and test data for each task in DECOR 📔. They can be downloaded from the following links in the table:
 
-<style>
-  .center-title th {
-    text-align: center;
-  }
-</style>
 
-<table class="center-title"><thead>
+<table><thead>
   <tr>
-    <th rowspan="2"><br>Incoherence <br>Detection</th>
-    <th colspan="4">Incoherence reasoning</th>
-    <th rowspan="2"><br>Incoherence<br>Rewriting</th>
+    <th rowspan="2" style="text-align: center;"><br>Incoherence <br>Detection</th>
+    <th colspan="4" style="text-align: center;">Incoherence reasoning</th>
+    <th rowspan="2" style="text-align: center;"><br>Incoherence<br>Rewriting</th>
   </tr>
   <tr>
-    <th>Cohesion</th>
-    <th>Consistency</th>
-    <th>Relevance</th>
-    <th>Other</th>
+    <th style="text-align: center;">Cohesion</th>
+    <th style="text-align: center;">Consistency</th>
+    <th style="text-align: center;">Relevance</th>
+    <th style="text-align: center;">Other</th>
   </tr></thead>
 <tbody>
   <tr>

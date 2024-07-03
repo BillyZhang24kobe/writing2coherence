@@ -26,7 +26,50 @@ In general, this repository offers:
 ## Downloading the DECOR benchmark 📔
 We release the dev and test data for each task in DECOR 📔. They can be downloaded from the following links in the table:
 
-|      | Coherence | Cohesion | Consistency | Relevance | Other | Rewrite |
-|------|-----------|----------|-------------|-----------|-------|---------|
-| Dev  |           |          |             |           |       |         |
-| Test |           |          |             |           |       |         |
+<style>
+  .center-title th {
+    text-align: center;
+  }
+</style>
+
+<table class="center-title"><thead>
+  <tr>
+    <th rowspan="2"><br>Incoherence <br>Detection</th>
+    <th colspan="4">Incoherence reasoning</th>
+    <th rowspan="2"><br>Incoherence<br>Rewriting</th>
+  </tr>
+  <tr>
+    <th>Cohesion</th>
+    <th>Consistency</th>
+    <th>Relevance</th>
+    <th>Other</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td><a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/dev/binary_dev.csv">dev set</a>
+    </td>
+    <td><a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/dev/cohesion_dev.csv">dev set</a>
+    </td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/dev/consistency_dev.csv">dev set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/dev/relevance_dev.csv">dev set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/dev/other_dev.csv">dev set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/dev/rewrite_541.csv">dev set</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/test/test_1355_clean.csv">test set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/test/cohesion_test.csv">test set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/test/consistency_test.csv">test set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/test/relevance_test.csv">test set</a></td>
+    <td>
+    <a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/test/other_test.csv">test set</a></td>
+    <td><a href="https://github.com/BillyZhang24kobe/writing2coherence/blob/main/data/test/test_rewrite_213_no_delete.csv">test set</a></td>
+  </tr>
+</tbody>
+</table>

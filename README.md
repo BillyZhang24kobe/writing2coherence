@@ -154,7 +154,7 @@ To evaluate model performance in detecting incoherence (i.e. Yes or No for binar
 python3 evaluate.py \
      --model_name_or_path {MODEL_NAME_OR_PATH} \
      --data_path data/test/test_1355_clean.csv \
-     --task "detection" \
+     --task "detection" 
 ```
 ### Incoherence Reasoning
 We divide the overall incoherence reasoning task into four distinct sub-tasks, each targeting a different cause. To evaluate model's ability in determining whether the incoherence stems from a specific cause, run the following command with your own model checkpoints and specify SUB_TASK from the list (i.e. `cohesion`, `consistency`, `relevance`, and `other`):
@@ -170,7 +170,7 @@ We evaluate the performance of incoherence rewriting with GPT-4 using two automa
 python3 evaluate.py \
      --model_name_or_path {MODEL_NAME_OR_PATH} \
      --data_path data/test/test_rewrite_213_no_delete.csv \
-     --task "rewriting-r" \
+     --task "rewriting-r" 
 ``` 
 
 ## Citation

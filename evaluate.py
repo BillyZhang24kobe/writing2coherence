@@ -360,8 +360,8 @@ class Evaluator(object):
 
                     if self.task == 'detection':
                         system_input = format_test_prompt(context, sentence)
-                    elif self.task in ['detection-llama3', 'cohesion-llama3', 'consistency-llama3', 'relevance-llama3', 'other-llama3']:
-                        system_input = format_test_prompt_llama3(context, sentence)
+                    # elif self.task in ['detection-llama3', 'cohesion-llama3', 'consistency-llama3', 'relevance-llama3', 'other-llama3']:
+                    #     system_input = format_test_prompt_llama3(context, sentence)
                     elif self.task == 'cohesion':
                         system_input = format_test_prompt_cohesion(context, sentence)
                     elif self.task == 'consistency':
@@ -435,12 +435,6 @@ class Evaluator(object):
                         if 'rewriting' in self.task:
                             model_preds.append(generated_texts)
                         else:
-                            # print("Generated texts: ", generated_texts)
-                            # if generated_texts == "Yes":
-                            #     pred = 1
-                            # else:
-                            #     pred = 0
-                            # model_preds.append(pred)
                             model_preds.append(int(generated_texts))
 
         

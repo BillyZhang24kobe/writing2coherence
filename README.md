@@ -99,6 +99,60 @@ conda activate w2c
 ```
 
 ## Supervised Fine-tuning pipelines
+We provide scripts to synthesize task-specific training data with GPT-4, and then fine-tune `Llama2-7B` and `Llama3-8B-Instruct` on the synthetic data.
+
+### Synthesize task-specific training data
+#### Create source dataset for prompting
+We start by creating the source dataset in an incremental format. Running `python3 create_dataset.py` takes in the raw sampled essays (i.e. `sample_759_raw.csv`) as the input and convert it into the incremental format (i.e. `sample_759_inc.csv`).
+
+#### Generate annotation with GPT-4
+Generate the synthetic data with GPT-4 using the following command. Note that you should create an `api_secrets.py` file in the root directory of the project, and input your OpenAI API credentials to the file before running the script.
+```
+python3 synthesize_gpt.py
+```
+Specifically, the script takes as an input the source incremental data from `data/raw/sample_759_inc.csv`. The output is stored in `data/train/syn_train.csv`. All synthetic training data for all tasks is stored in the `data/train/decor` folder.
+
+### Supervised Fine-tuning recipes
+We employ the following scripts to fine-tune the `Llama2-7B` and `Llama3-8B-Instruct` models. We provide the configuration details to help you replicate our experiment results. We specifically build our pipeline based on [FastChat](https://github.com/lm-sys/FastChat). Please fill in `DEVICE`, `MODEL_PATH`, `DATA_PATH`, `OUTPUT_MODEL_PATH`, and `TASK_NAME` accordingly. Please specify `TASK_NAME` from the following list: `detection`, `cohesion`, `consistency`, `relevance`, `other`, `rewriting-r`, and `rewriting-r-llama3`.
+```
+CUDA_VISIBLE_DEVICES={DEVICE} python fastchat/train/train_mem.py \
+    --model_name_or_path {MODEL_PATH} \
+    --data_path {DATA_PATH} \
+    --bf16 True \
+    --output_dir {OUTPUT_MODEL_PATH} \
+    --task {TASK_NAME} \
+    --num_train_epochs 5 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 1 \
+    --evaluation_strategy "no" \
+    --save_strategy "epoch" \
+    --save_steps 1200 \
+    --save_total_limit 10 \
+    --learning_rate 2e-5 \
+    --weight_decay 0. \
+    --warmup_steps 100 \
+    --lr_scheduler_type "linear" \
+    --logging_steps 1 \
+    --tf32 True \
+    --model_max_length 2048 \
+    --gradient_checkpointing True \
+    --lazy_preprocess False \
+```
+
+### Model Weights
+We release the model weights for the task of incoherence rewriting.
+#### Llama2-7B Weights
+| Training Condition | Description | Hugging Face Repo |
+| ---  | --- | --- |
+| w/ reason   | Our Llama2-7B model finetuned on our task-specific synthetic data with the reasons for incoherence.  | [Columbia-NLP/llama2-7b-rewriting-r-Decor](https://huggingface.co/Columbia-NLP/llama2-7b-rewriting-r-Decor)   |
+| w/o reason   | Our Llama2-7B model finetuned on our task-specific synthetic data without the reasons for incoherence. | [Columbia-NLP/llama2-7b-rewriting-nr-Decor](https://huggingface.co/Columbia-NLP/llama2-7b-rewriting-nr-Decor)   |
+
+#### Llama3-8B-Instruct Weights
+| Training Condition | Description | Hugging Face Repo |
+| ---  | --- | --- |
+| w/ reason   | Our Llama3-8B-Instruct model finetuned on our task-specific synthetic data with the reasons for incoherence.  | [Columbia-NLP/llama3-8b-instruct-rewriting-r-Decor](https://huggingface.co/Columbia-NLP/llama3-8b-instruct-rewriting-r-Decor)   |
+| w/o reason   | Our Llama3-8B-Instruct finetuned on our task-specific synthetic data without the reasons for incoherence. | [Columbia-NLP/llama3-8b-instruct-rewriting-nr-Decor](https://huggingface.co/Columbia-NLP/llama3-8b-instruct-rewriting-nr-Decor)   |
 
 ## Evaluating on DECOR
 We provide the evaluation pipeline for all three tasks proposed in DECOR. The following code snippet demonstrates how to plug in a rewriting model fine-tuned based on `Llama3-8B-Instruct` to generate rewrites for the given incoherent context-sentence pair. Feel free to replace the model checkpoints with your own checkpoints.

@@ -187,9 +187,10 @@ def detect_reason_rewrite(data_df, test=False, save_every=1000):
     return essay_ids, topics, contexts, sentences, labels, reason1, reason2, reason3, reason4, reason5, reason6, reason7, rewrites
 
 
-def generate_by_detect_reason_rewrite():
+def generate_by_detect_reason_rewrite(inc_file, output_file):
     # data_inc_df = pd.read_csv('data/train/sample_889_inc.csv')
-    data_inc_df = pd.read_csv('data/test/test_neg_448.csv')
+    # data_inc_df = pd.read_csv('data/test/test_neg_448.csv')
+    data_inc_df = pd.read_csv(inc_file)
     essay_ids, topics, contexts, sentences, labels, reason1, reason2, reason3, reason4, reason5, reason6, reason7, rewrites = detect_reason_rewrite(data_inc_df, test=True, save_every=50)
 
     # save the results to a csv file
@@ -208,22 +209,25 @@ def generate_by_detect_reason_rewrite():
         'R7': reason7,
         'Rewrite': rewrites
     })
-    f_name = 'data/train/syn_train_plus_plus_13548.csv'
+    # f_name = 'data/train/syn_train_plus_plus_13548.csv'
     # f_name = 'data/test/test_neg_448_gpt_rewrite.csv'
-    df_all.to_csv(f_name, index=False)
+    df_all.to_csv(output_file, index=False)
 
 
-data_df = pd.read_csv('data/test/test_rewrite_213_no_delete.csv')
-essay_ids, topics, contexts, sentences, rewrites = rewrite_sentence(data_df)
+if __name__ == '__main__':
+    generate_by_detect_reason_rewrite('./data/raw/sample_759_inc.csv', 'data/train/syn_train.csv')
 
-# save the results to a csv file
-df_all = pd.DataFrame({
-    'essay_id': essay_ids,
-    'topic': topics,
-    'context': contexts,
-    'sentence': sentences,
-    'rewrite': rewrites
-})
+# data_df = pd.read_csv('data/test/test_rewrite_213_no_delete.csv')
+# essay_ids, topics, contexts, sentences, rewrites = rewrite_sentence(data_df)
 
-f_name = 'data/test/test_rewrite_213_gpt_turbo_ref.csv'
-df_all.to_csv(f_name, index=False)
+# # save the results to a csv file
+# df_all = pd.DataFrame({
+#     'essay_id': essay_ids,
+#     'topic': topics,
+#     'context': contexts,
+#     'sentence': sentences,
+#     'rewrite': rewrites
+# })
+
+# f_name = 'data/test/test_rewrite_213_gpt_turbo_ref.csv'
+# df_all.to_csv(f_name, index=False)

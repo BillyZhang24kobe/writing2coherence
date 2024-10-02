@@ -2,7 +2,7 @@
 <img src="figures/decor_overview.png" width="100%">
 
 
-This is the repository for DECOR, a novel benchmark that includes expert annotations for detecting incoherence in L2 English writing, identifying the underlying reasons, and rewriting the incoherent sentences. 
+This is the repository for our EMNLP 2024 paper -- DECOR, a novel benchmark that includes expert annotations for detecting incoherence in L2 English writing, identifying the underlying reasons, and rewriting the incoherent sentences. 
 
 The figure above shows an example data point in DECOR, containing input context-sentence pairs, binary detection label, reason types for incoherence, and human rewrites.
 

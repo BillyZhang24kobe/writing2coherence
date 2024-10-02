@@ -13,6 +13,7 @@ In general, this repository offers:
 3. A standardized evaluation pipeline for all three tasks
 
 ## News
+- [2024/09] 🎉 Our paper has been accepted to the EMNLP 2024 main conference!
 - [2024/06] 🔥 We release the preprint of DECOR. Read our [paper](https://arxiv.org/abs/2406.19650) for more details!
 
 ## Table of Contents
